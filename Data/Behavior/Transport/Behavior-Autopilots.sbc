@@ -1,0 +1,150 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-AutoPilot-TransportA1</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [UseVelocityCollisionEvasion:false]
+        [SlowDownOnWaypointApproach:false]
+        [ExtraSlowDownDistance:200]
+        [FlyLevelWithGravity:false]
+
+        [IdealMinSpeed:15]
+        [IdealMaxSpeed:100]
+        [MaxSpeedTolerance:5]
+
+        [MinimumPlanetAltitude:200]
+        [IdealPlanetAltitude:400]
+
+        [OffsetPlanetMinDistFromTarget:100]
+        [OffsetPlanetMaxDistFromTarget:300]
+        [OffsetPlanetMinTargetAltitude:100]
+        [OffsetPlanetMaxTargetAltitude:300]
+
+        [UseVerticalRetreat:true]
+        [UseProjectileLeadPrediction:false]
+
+        [UseSurfaceHoverThrustMode:false]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-AutoPilot-TransportA2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [UseVelocityCollisionEvasion:true]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:40]
+        [FlyLevelWithGravity:true]
+
+        [IdealMinSpeed:20]
+        [IdealMaxSpeed:25]
+        [MaxSpeedTolerance:5]
+
+        [MinimumPlanetAltitude:5]
+        [IdealPlanetAltitude:6]
+
+        [OffsetPlanetMinDistFromTarget:100]
+        [OffsetPlanetMaxDistFromTarget:300]
+        [OffsetPlanetMinTargetAltitude:5]
+        [OffsetPlanetMaxTargetAltitude:6]
+
+        [UseSurfaceHoverThrustMode:true]
+        [HoverPathStepDistance:5]
+
+        [LimitRotationSpeed:true]
+        [MaxRotationMagnitude:0.4]
+
+        [UseVerticalRetreat:true]
+        [UseProjectileLeadPrediction:false]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-AutoPilot-TransportA3</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [UseVelocityCollisionEvasion:false]
+        [SlowDownOnWaypointApproach:false]
+        [FlyLevelWithGravity:true]
+
+        [IdealMinSpeed:95]
+        [IdealMaxSpeed:100]
+        [MaxSpeedTolerance:15]
+
+        [MinimumPlanetAltitude:15000]
+        [IdealPlanetAltitude:15000]
+
+        [UseProjectileLeadPrediction:false]
+        [UseSurfaceHoverThrustMode:false]
+
+	      [RotationMultiplier:0.2]
+        [UseVerticalRetreat:true]
+
+      </Description>
+
+    </EntityComponent>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-AutoPilot-TransportB2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [UseVelocityCollisionEvasion:false]
+        [SlowDownOnWaypointApproach:false]
+        [ExtraSlowDownDistance:0]
+        [FlyLevelWithGravity:true]
+
+        [IdealMinSpeed:15]
+        [IdealMaxSpeed:20]
+        [MaxSpeedTolerance:5]
+
+        [MinimumPlanetAltitude:12]
+        [IdealPlanetAltitude:15]
+
+        [OffsetPlanetMinDistFromTarget:100]
+        [OffsetPlanetMaxDistFromTarget:1200]
+        [OffsetPlanetMinTargetAltitude:12]
+        [OffsetPlanetMaxTargetAltitude:15]
+
+        [UseSurfaceHoverThrustMode:true]
+        [HoverPathStepDistance:5]
+
+        [LimitRotationSpeed:true]
+        [MaxRotationMagnitude:0.8]
+
+        [UseVerticalRetreat:true]
+        [UseProjectileLeadPrediction:false]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Trigger-FlightEscort-PassiveSwitch</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:TargetFar]
+        [AllowTargetFarWithoutTarget:true]
+
+        [TargetDistance:12000]
+
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:UTD-Action-FlightEscort-PassiveSwitch]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Action-FlightEscort-PassiveSwitch</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ChangeBehaviorSubclass:true]
+        [NewBehaviorSubclass:Escort]
+
+        [ChangeAutopilotProfile:true]
+        [AutopilotProfile:Primary]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:UTD-Trigger-FlightEscort-PassiveSwitch]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:UTD-Trigger-RequestSquadronSlot]
+        [EnableTriggerNames:UTD-Trigger-FlightEscort-AggressionSwitch]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

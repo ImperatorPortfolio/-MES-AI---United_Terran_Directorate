@@ -1,0 +1,292 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-Osprey</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-AtmoCargoShip]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) C-12 Courier Utility Transport">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-CargoShip</Behaviour>
+        </Prefab>        
+      </Prefabs>
+    </SpawnGroup>
+
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-Valkyrie</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-SpaceCargoShip]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+        [NpcGyroscopeMultiplier:2.5]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) C-130 Atlas Tactical Airlift">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-MilitaryCargoShipSG</Behaviour>
+        </Prefab>        
+      </Prefabs>
+    </SpawnGroup>
+
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-ValkyrieMkV</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-AllCargoShipB]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+        [NpcGyroscopeMultiplier:2.5]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) KC-130 Atlas Tanker">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-MilitaryCargoShipSG</Behaviour>
+        </Prefab>        
+      </Prefabs>
+    </SpawnGroup>
+
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-Wyvern</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-AtmoCargoShip]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+        [NpcGyroscopeMultiplier:2.5]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) C-17 Titan Strategic Airlift">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-MilitaryCargoShipSG</Behaviour>
+        </Prefab>        
+      </Prefabs>
+    </SpawnGroup>
+
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-WyvernStorage</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-AtmoCargoShip]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+        [NpcGyroscopeMultiplier:2.5]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) C-17 Titan Logistics Variant">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-MilitaryCargoShipSG</Behaviour>
+        </Prefab>        
+      </Prefabs>
+    </SpawnGroup>
+
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-LangleyMk-1</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-AtmoCargoShip]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:150]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.5</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) CVA-10 Liberty Light Carrier">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-CargoShipLangleyMK1</Behaviour>
+        </Prefab>        
+      </Prefabs>
+    </SpawnGroup>
+
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-LangleyMk-2</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-AtmoCargoShip]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:150]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) CVA-20 Independence Fleet Carrier">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-CargoShipLangleyMK2</Behaviour>
+        </Prefab>        
+      </Prefabs>
+    </SpawnGroup>
+
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-LangleyMk-3</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-AtmoCargoShip]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:150]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) CVA-30 Constitution Super Carrier">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-CargoShipLangleyMK3</Behaviour>
+        </Prefab>        
+      </Prefabs>
+    </SpawnGroup>
+
+  </SpawnGroups>
+</Definitions>

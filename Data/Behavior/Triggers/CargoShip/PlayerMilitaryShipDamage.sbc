@@ -1,0 +1,91 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Trigger-PlayerMilitaryDamageResponse</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+
+        [DamageTypes:Any]
+
+        [ExcludedDamageTypes:Environment]
+        [ExcludedDamageTypes:Deformation]
+        [ExcludedDamageTypes:Fire]        
+
+        [MinCooldownMs:600000]
+        [MaxCooldownMs:600001]
+
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:UTD-Action-PlayerMilitaryDamageResponse]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Action-PlayerMilitaryDamageResponse</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:UTD-Chat-PlayerMilitaryDamageResponse]
+
+        [ChangeBehaviorSubclass:true]
+	      [NewBehaviorSubclass:HorseFighter]
+
+        [AutopilotProfile:Tertiary]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:UTD-Trigger-AggressionSwitch]
+        [DisableTriggerNames:UTD-Trigger-PlayerMilitaryDamageResponse]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:UTD-Trigger-PassiveSwitch]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Chat-PlayerMilitaryDamageResponse</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+        [Author:UTD Crew]
+        [Color:Red]
+
+        [ChatMessages:We have been engaged follow standard protocol]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages:Diverating to engage unknown contact]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+
+  </EntityComponents>
+</Definitions>

@@ -1,0 +1,739 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-NSquadronRaven+Swifts</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-Squadron-SpawnConditions-AtmoCargoShip]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+        [SetNpcGyroscopeMultiplier:true]
+        [NpcGyroscopeMultiplier:1]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.75</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) RQ-9 Raven Tactical Recon VTOL">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) CV-11 Shadow Special Operations VTOL">
+          <Position>
+            <X>-65.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) CV-11 Shadow Special Operations VTOL">
+          <Position>
+            <X>65.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab>        
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-NSquadronMako</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-Squadron-SpawnConditions-SpaceCargoShip]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+        [SetNpcGyroscopeMultiplier:true]
+        [NpcGyroscopeMultiplier:1]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.75</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) B-12 Banshee Tactical Bomber">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) B-12 Banshee Tactical Bomber">
+          <Position>
+            <X>-65.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab>       
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-NSquadronMakoHard</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-Squadron-SpawnConditions-SpaceCargoShip]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+        [SetNpcGyroscopeMultiplier:true]
+        [NpcGyroscopeMultiplier:1]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.75</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) B-12 Banshee Tactical Bomber">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) B-12 Banshee Tactical Bomber">
+          <Position>
+            <X>-65.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab> 
+        <Prefab SubtypeId="(NPC-UTD) B-12 Banshee Tactical Bomber">
+          <Position>
+            <X>65.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab> 
+        <Prefab SubtypeId="(NPC-UTD) B-12 Banshee Tactical Bomber">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>130.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab>                       
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-NSquadronArrowhead</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-Squadron-SpawnConditions-AtmoCargoShip]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+        [SetNpcGyroscopeMultiplier:true]
+        [NpcGyroscopeMultiplier:1]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.75</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) FA-38 Warden Multirole Fighter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) FA-38 Warden Multirole Fighter">
+          <Position>
+            <X>-65.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab>       
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-NSquadronArrowheadHard</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-Squadron-SpawnConditions-AtmoCargoShip]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+        [SetNpcGyroscopeMultiplier:true]
+        [NpcGyroscopeMultiplier:1]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.75</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) FA-38 Warden Multirole Fighter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) FA-38 Warden Multirole Fighter">
+          <Position>
+            <X>-65.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab> 
+        <Prefab SubtypeId="(NPC-UTD) FA-38 Warden Multirole Fighter">
+          <Position>
+            <X>65.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab> 
+        <Prefab SubtypeId="(NPC-UTD) FA-38 Warden Multirole Fighter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>130.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab>                       
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-NSquadronPredator</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-Squadron-SpawnConditions-AllCargoShipB]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+        [SetNpcGyroscopeMultiplier:true]
+        [NpcGyroscopeMultiplier:5.5]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.75</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) F-40 Viper Strike Fighter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-40 Viper Strike Fighter">
+          <Position>
+            <X>-65.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-40 Viper Strike Fighter">
+          <Position>
+            <X>65.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab>        
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-NSquadronPredators+Falcon</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-Squadron-SpawnConditions-AllCargoShipB]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+        [SetNpcGyroscopeMultiplier:true]
+        [NpcGyroscopeMultiplier:5.5]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.75</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) F-24 Sparrow Interceptor">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-40 Viper Strike Fighter">
+          <Position>
+            <X>-65.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-40 Viper Strike Fighter">
+          <Position>
+            <X>65.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab>        
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-NSquadronFalcon</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-Squadron-SpawnConditions-AllCargoShipB]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+        [SetNpcGyroscopeMultiplier:true]        
+        [NpcGyroscopeMultiplier:5.5]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.75</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) F-24 Sparrow Interceptor">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-24 Sparrow Interceptor">
+          <Position>
+            <X>-65.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-24 Sparrow Interceptor">
+          <Position>
+            <X>65.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab>        
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-NSquadronFalconMk-II</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-Squadron-SpawnConditions-AtmoCargoShip]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+        [SetNpcGyroscopeMultiplier:true]        
+        [NpcGyroscopeMultiplier:3.5]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.75</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) F-27 Raptor Air Superiority Fighter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-27 Raptor Air Superiority Fighter">
+          <Position>
+            <X>-65.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-27 Raptor Air Superiority Fighter">
+          <Position>
+            <X>65.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab>        
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-NSquadronSaber</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-Squadron-SpawnConditions-AllCargoShipB]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+        [SetNpcGyroscopeMultiplier:true]
+        [NpcGyroscopeMultiplier:1]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.75</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) F-35 Specter Fleet Defense Fighter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-35 Specter Fleet Defense Fighter">
+          <Position>
+            <X>-65.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab>       
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-NSquadronV207</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-Squadron-SpawnConditions-AllCargoShipB]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+        [SetNpcGyroscopeMultiplier:true]
+        [NpcGyroscopeMultiplier:1.2]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.75</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) F-45 Ranger Long Range Patrol Fighter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-45 Ranger Long Range Patrol Fighter">
+          <Position>
+            <X>-65.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab>       
+      </Prefabs>
+    </SpawnGroup>
+
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-NSquadronV207Hard</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-Squadron-SpawnConditions-AllCargoShipB]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+        [SetNpcGyroscopeMultiplier:true]
+        [NpcGyroscopeMultiplier:1]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.75</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) F-45 Ranger Long Range Patrol Fighter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-45 Ranger Long Range Patrol Fighter">
+          <Position>
+            <X>-65.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab> 
+        <Prefab SubtypeId="(NPC-UTD) F-45 Ranger Long Range Patrol Fighter">
+          <Position>
+            <X>65.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab> 
+        <Prefab SubtypeId="(NPC-UTD) F-45 Ranger Long Range Patrol Fighter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>130.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab>                       
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-NSquadronScythe</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-Squadron-SpawnConditions-AllCargoShipB]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+        [SetNpcGyroscopeMultiplier:true]
+        [NpcGyroscopeMultiplier:1]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.75</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) A-20 Reaper Close Air Support Aircraft">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) A-20 Reaper Close Air Support Aircraft">
+          <Position>
+            <X>-65.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab>       
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-NSquadronScytheHard</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-Squadron-SpawnConditions-AllCargoShipB]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+        [SetNpcGyroscopeMultiplier:true]
+        [NpcGyroscopeMultiplier:1]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.75</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) A-20 Reaper Close Air Support Aircraft">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) A-20 Reaper Close Air Support Aircraft">
+          <Position>
+            <X>-65.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab> 
+        <Prefab SubtypeId="(NPC-UTD) A-20 Reaper Close Air Support Aircraft">
+          <Position>
+            <X>65.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab> 
+        <Prefab SubtypeId="(NPC-UTD) A-20 Reaper Close Air Support Aircraft">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>130.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort</Behaviour>
+        </Prefab>                       
+      </Prefabs>
+    </SpawnGroup>
+
+  </SpawnGroups>
+</Definitions>

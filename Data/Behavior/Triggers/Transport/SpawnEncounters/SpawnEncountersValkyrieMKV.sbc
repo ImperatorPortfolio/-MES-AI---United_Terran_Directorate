@@ -1,0 +1,79 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Trigger-SpawnEncountersValkyrieMKV</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Timer]
+
+        [Conditions:UTD-Condition-SpawnEncounters]
+
+        [MinCooldownMs:3000]
+        [MaxCooldownMs:3001]
+        [StartsReady:true]
+
+        [MaxActions:1]
+        [Actions:UTD-Action-SpawnEncountersValkyrieMKV]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Action-SpawnEncountersValkyrieMKV</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:UTD-Trigger-Retreat]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:UTD-Trigger-Retreat]
+
+        [ChangeBehaviorSubclass:true]
+        [NewBehaviorSubclass:Horsefly]
+
+        [SpawnEncounter:true]
+        [Spawner:UTD-Spawner-SpawnEncountersValkyrieMKV]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Spawner-SpawnEncountersValkyrieMKV</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+
+        [UseSpawn:true]
+        [SpawnMinCooldown:0.1]
+        [SpawnMaxCooldown:0.2]
+	      [StartsReady:true]
+
+        [MaxSpawns:1]
+        [SpawningType:Creature]
+        [SpawnGroups:UTD-SpawnGroup-EliteTroopers]
+        [ProcessAsAdminSpawn:true]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

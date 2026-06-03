@@ -1,0 +1,63 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Trigger-FlightEscort-AggressionSwitch</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [CommandReceiveCode:UTDTARGETFOUND]
+
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:UTD-Action-FlightEscort-AggressionSwitch]
+
+      </Description>
+
+    </EntityComponent>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Action-FlightEscort-AggressionSwitch</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:UTD-Chat-FlightEscort-AggressionSwitch]
+
+        [ChangeBehaviorSubclass:true]
+        [NewBehaviorSubclass:Fighter]
+
+        [ChangeAutopilotProfile:true]
+        [AutopilotProfile:Secondary]
+
+        [ChangeAutopilotSpeed:true]
+        [NewAutopilotSpeed:-1]
+
+        [SwitchToReceivedTarget:true]
+        [SwitchTargetToDamager:true]
+        [InheritLastAttackerFromCommand:true]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:UTD-Trigger-FlightEscort-AggressionSwitch]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:UTD-Trigger-FlightEscort-PassiveSwitch]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

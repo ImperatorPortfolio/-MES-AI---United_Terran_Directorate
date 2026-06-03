@@ -1,0 +1,120 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Behavior-CargoShipSmallCrew</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:CargoShip]
+
+        [AutopilotData:UTD-AutoPilot-CargoShipSC]
+        [SecondaryAutopilotData:UTD-AutoPilot-CargoShipSC-B]
+        [TertiaryAutopilotData:UTD-AutoPilot-Boss-B]
+
+        [Triggers:UTD-Trigger-AggressionSwitch]
+        [Triggers:UTD-Trigger-PassiveSwitch]
+        [Triggers:UTD-Trigger-ReturnToDespawn]
+        [Triggers:UTD-Trigger-ShipDamage]
+        [Triggers:UTD-Trigger-ReturnToSpeed]
+        [Triggers:UTD-Trigger-BotSmallCrew]
+        [Triggers:UTD-Trigger-ProcessEscortRequest]      
+        [Triggers:UTD-Trigger-CargoShipDamage]             
+        [Triggers:UTD-Trigger-InhibitorAltitudeON]         
+        [Triggers:UTD-Trigger-InhibitorAltitudeOFF]
+        [Triggers:UTD-Trigger-RemoteControlDeath]
+
+        [TriggerGroups:UTD-TriggerGroup-Interactions]
+
+        [EscortOffsets:{X:-250 Y:0 Z:0}]
+        [EscortOffsets:{X:250 Y:0 Z:0}]
+        [EscortOffsets:{X:-400 Y:0 Z:0}]
+        [EscortOffsets:{X:400 Y:0 Z:0}]
+        [EscortOffsets:{X:-550 Y:0 Z:0}]
+        [EscortOffsets:{X:550 Y:0 Z:0}]
+
+        [TargetData:UTD-Targeting-CargoShip]
+        [OverrideTargetData:UTD-Targeting-CargoShip-Override]
+
+      </Description>
+
+    </EntityComponent>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-AutoPilot-CargoShipSC</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:50]
+        [FlyLevelWithGravity:true]
+        [ForceDampenersEnabled:true]
+
+        [IdealMinSpeed:12]
+        [IdealMaxSpeed:20]
+        [MaxSpeedTolerance:3]
+
+        [MinimumPlanetAltitude:1000]
+        [IdealPlanetAltitude:1200]
+
+        [WaypointTolerance:50]
+        [WaypointWaitTimeTrigger:120]
+
+        [MinAngleForLeveledDescent:135]
+        [MaxAngleForLeveledAscent:90]
+
+        [UseVelocityCollisionEvasion:false]
+        [LimitRotationSpeed:true]
+        [MaxRotationMagnitude:0.2]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-AutoPilot-CargoShipSC-B</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:50]
+        [FlyLevelWithGravity:true]
+        [ForceDampenersEnabled:true]
+
+        [IdealMinSpeed:12]
+        [IdealMaxSpeed:20]
+        [MaxSpeedTolerance:3]
+
+        [MinimumPlanetAltitude:50]
+        [IdealPlanetAltitude:100]
+
+        [WaypointTolerance:50]
+        [WaypointWaitTimeTrigger:60]
+
+        [MinAngleForLeveledDescent:135]
+        [MaxAngleForLeveledAscent:90]
+
+        [UseVelocityCollisionEvasion:false]
+        [LimitRotationSpeed:true]
+        [MaxRotationMagnitude:0.2]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

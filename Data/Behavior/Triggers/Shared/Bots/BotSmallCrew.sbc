@@ -1,0 +1,49 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Trigger-BotSmallCrew</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+
+        [TargetDistance:1500]
+
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:UTD-Action-BotSmallCrew]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Action-BotSmallCrew</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [AddBotsToGrid:true]
+        [BotCount:4]
+        [BotSpawnProfileNames:UTD-BotSpawnProfile-CombatBot]
+        [BotSpawnProfileNames:UTD-BotSpawnProfile-CombatBot]
+        [BotSpawnProfileNames:UTD-BotSpawnProfile-CombatBot]       
+        [BotSpawnProfileNames:UTD-BotSpawnProfile-CombatCaptainBot]
+        [OnlySpawnBotsInPressurizedRooms:true]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

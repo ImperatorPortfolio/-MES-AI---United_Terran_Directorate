@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Behavior-Drone</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Patrol]
+
+        [AutopilotData:UTD-AutoPilot-Drone-A]
+        [SecondaryAutopilotData:UTD-AutoPilot-Drone-B]
+
+        [Triggers:UTD-Trigger-UnStatic]
+        [Triggers:UTD-Trigger-AggressionSwitchPatrol]
+        [Triggers:UTD-Trigger-PassiveSwitchPatrol]
+        [Triggers:UTD-Trigger-RemoteControlDeath]
+
+        [WeaponSystem:UTD-Weapons-Drone]
+        [TargetData:UTD-Targeting-Drone]
+        [OverrideTargetData:UTD-Targeting-Drone]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseRetreatTimer:true]
+        [RetreatTimerTrigger:5400]
+        [RetreatDespawnDistance:10000]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Targeting-Drone</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Target]
+
+        [UseCustomTargeting:true]
+        [Target:PlayerAndGrid]
+
+        [MaxDistance:3500]
+        [MaxExistingTargetDistance:3500]
+
+        [MatchAllFilters:OutsideOfSafezone]
+        [MatchAllFilters:Owner]
+        [MatchAllFilters:Relation]
+        [GetTargetBy:ClosestDistance]
+
+        [Owners:Player]
+        [Owners:NPC]
+        [Relations:Enemy]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Weapons-Drone</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Weapons]
+
+        [UseStaticGuns:true]
+        [UseTurrets:true]
+
+        [MaxStaticWeaponRange:1400]
+        [WeaponMaxAngleFromTarget:6]
+        [WeaponMaxBaseDistanceTarget:20]
+
+        [UseAmmoReplenish:true]
+        [AmmoReplenishClipAmount:15]
+        [MaxAmmoReplenishments:10]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-AutoPilot-Drone-A</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [DisableInertiaDampeners:false]
+        [SlowDownOnWaypointApproach:true]
+        [FlyLevelWithGravity:false]
+        [MinimumPlanetAltitude:500]
+        [IdealPlanetAltitude:800]
+        [WaypointTolerance:30]
+
+        [OffsetSpaceMinDistFromTarget:800]
+        [OffsetSpaceMaxDistFromTarget:2500]
+        [OffsetPlanetMinDistFromTarget:800]
+        [OffsetPlanetMaxDistFromTarget:2500]
+        [OffsetPlanetMinTargetAltitude:1200]
+        [OffsetPlanetMaxTargetAltitude:1800]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-AutoPilot-Drone-B</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [DisableInertiaDampeners:false]
+        [FlyLevelWithGravity:false]
+        [WaypointTolerance:40]
+        [IdealMinSpeed:40]
+        [IdealMaxSpeed:100]
+        [MaxSpeedTolerance:5]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:300]
+
+        [MinimumPlanetAltitude:350]
+        [IdealPlanetAltitude:550]
+
+        [UseProjectileLeadPrediction:true]
+        [AllowStrafing:true]
+        [StrafeMinDurationMs:1000]
+        [StrafeMaxDurationMs:2000]
+
+        [StrafeMinCooldownMs:1000]
+        [StrafeMaxCooldownMs:3000]
+
+        [StrafeMinimumTargetDistance:600]
+        [StrafeSpeedCutOff:80]
+        [StrafeDistanceCutOff:250]
+
+        [EngageDistanceSpace:400]
+        [EngageDistancePlanet:400]
+        [DisengageDistanceSpace:800]
+        [DisengageDistancePlanet:800]
+
+        [RotationMultiplier:2.5]
+
+        [UseVelocityCollisionEvasion:true]
+        [CollisionFallEvasionWaypointDistance:275]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-TriggerGroup-Main-Transport</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:UTD-Trigger-CallAirSupport]
+        [Triggers:UTD-Trigger-ArriveAtLocation]
+        [Triggers:UTD-Trigger-Landed]
+        [Triggers:UTD-Trigger-Retreat]
+        [Triggers:UTD-Trigger-RemoteControlDeath]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-TriggerGroup-Transport</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:UTD-Trigger-ArriveAtLocation]
+        [Triggers:UTD-Trigger-Landed]
+        [Triggers:UTD-Trigger-Retreat]
+        [Triggers:UTD-Trigger-RemoteControlDeath]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-TriggerGroup-VehicleTransport</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:UTD-Trigger-ArriveAtLocationVT]
+        [Triggers:UTD-Trigger-LandedVT]
+        [Triggers:UTD-Trigger-RetreatVT]
+        [Triggers:UTD-Trigger-RemoteControlDeath]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-TriggerGroup-TankTransport</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:UTD-Trigger-ArriveAtLocationTVT]
+        [Triggers:UTD-Trigger-LandedVT]
+        [Triggers:UTD-Trigger-RetreatVT]
+        [Triggers:UTD-Trigger-RemoteControlDeath]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

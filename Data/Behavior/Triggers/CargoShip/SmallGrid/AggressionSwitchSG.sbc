@@ -1,0 +1,128 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Trigger-AggressionSGSwitch</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+
+        [TargetDistance:1500]
+        [MaxPlayerReputation:-1450]
+
+        [Conditions:UTD-Condition-AggressionSGSwitch]
+
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:UTD-Action-AggressionSGSwitch]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Condition-AggressionSGSwitch</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Condition]
+
+        [UseConditions:true]
+
+        [CheckIfGridNameMatches:true]
+        [AllowPartialGridNameMatches:true]
+        [GridNamesToCheck:Dropship]
+        [GridNamesToCheck:Dropship wStorage Pod]                
+        [GridNamesToCheck:Wyvern]
+        [GridNamesToCheck:Wyvern wStorage Pod]        
+        [GridNamesToCheck:Valkyrie]
+        [GridNamesToCheck:Valkyrie Mk-V]   
+                         
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Action-AggressionSGSwitch</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:UTD-Chat-AggressionSGSwitch]
+
+        [ChangeBehaviorSubclass:true]
+        [NewBehaviorSubclass:Fighter]
+
+        [ChangeAutopilotProfile:true]
+        [AutopilotProfile:Secondary]
+
+        [ChangeAutopilotSpeed:true]
+        [NewAutopilotSpeed:-1]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:UTD-Trigger-AggressionSGSwitch]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:UTD-Trigger-PlayerMilitaryShipSGDamageResponse]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:UTD-Trigger-PassiveSwitch]
+
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:UTD-Command-CargoShipDamage]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Chat-AggressionSGSwitch</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+        [Author:UTD {AntennaName} Pilot]
+        [Color:Red]
+
+        [ChatMessages:Your constant hostility towards UTD will no longer be tolerated, requesting backup.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages:Known aggressors detected. Free to engage, requesting backup to assist!]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages:Known hostile contact on route switch to engage them!]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages:We got a hostile contact on route ready to engage!]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

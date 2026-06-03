@@ -1,0 +1,341 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-BOSSLangleyMK3</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-SpawnConditions-Boss]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-BOSSManipulation-Group]
+        [ManipulationProfiles:UTD-Manipulation-Propulsion]
+        [MaxGravity:1.0]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) CVA-30 Constitution Super Carrier">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-Boss</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-27 Raptor Air Superiority Fighter">
+          <Position>
+            <X>-150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscortDrone</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-27 Raptor Air Superiority Fighter">
+          <Position>
+            <X>150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscortDrone</Behaviour>
+        </Prefab>        
+      </Prefabs>
+    </SpawnGroup>
+
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-CerberusBattleCruiser</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-SpawnConditions-Boss]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-BOSSManipulation-Group]
+        [ManipulationProfiles:UTD-Manipulation-Propulsion]
+        [MaxGravity:0]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) BC-90 Dominion Battlecruiser">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-Boss</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) B-12 Banshee Tactical Bomber">
+          <Position>
+            <X>-150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscortDrone</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) B-12 Banshee Tactical Bomber">
+          <Position>
+            <X>150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscortDrone</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) B-12 Banshee Tactical Bomber">
+          <Position>
+            <X>-250.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscortDrone</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) B-12 Banshee Tactical Bomber">
+          <Position>
+            <X>250.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscortDrone</Behaviour>
+        </Prefab>        
+      </Prefabs>
+    </SpawnGroup>
+
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-Phoenix</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-SpawnConditions-Boss]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-BOSSManipulation-Group]
+        [ManipulationProfiles:UTD-Manipulation-Propulsion]
+        [MaxGravity:0]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) CGA-80 Phoenix Assault Cruiser">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-Boss</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-45 Ranger Long Range Patrol Fighter">
+          <Position>
+            <X>-150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscortDrone</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-45 Ranger Long Range Patrol Fighter">
+          <Position>
+            <X>150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscortDrone</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-Exile</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-SpawnConditions-Boss]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-BOSSManipulation-Group]
+        [ManipulationProfiles:UTD-Manipulation-Propulsion]
+        [MaxGravity:0]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) CB-95 Exile Command Battlecruiser">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-Boss</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) B-12 Banshee Tactical Bomber">
+          <Position>
+            <X>-150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscortDrone</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) B-12 Banshee Tactical Bomber">
+          <Position>
+            <X>150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscortDrone</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-Essex</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-SpawnConditions-BossEssex]
+        [PlanetBlacklist:Pertam]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-BOSSManipulation-Group]
+        [ManipulationProfiles:UTD-Manipulation-Propulsion]
+        [MaxGravity:1.0]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.5</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) LHA-01 Resolute Assault Carrier">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEssex</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-27 Raptor Air Superiority Fighter">
+          <Position>
+            <X>-150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscortDrone</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-27 Raptor Air Superiority Fighter">
+          <Position>
+            <X>150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscortDrone</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-Legacy</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-SpawnConditions-BossLegacy]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-BOSSManipulation-Group]
+        [ManipulationProfiles:UTD-Manipulation-Propulsion]
+        [MaxGravity:0]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.25</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) CVN-100 Legacy Fleet Supercarrier">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-Boss</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-45 Ranger Long Range Patrol Fighter">
+          <Position>
+            <X>-250.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscortDrone</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-45 Ranger Long Range Patrol Fighter">
+          <Position>
+            <X>250.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscortDrone</Behaviour>
+        </Prefab>          
+      </Prefabs>
+    </SpawnGroup>
+
+
+  </SpawnGroups>
+</Definitions>

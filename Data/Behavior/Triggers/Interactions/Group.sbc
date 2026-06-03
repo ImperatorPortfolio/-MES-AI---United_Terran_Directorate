@@ -1,0 +1,40 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-TriggerGroup-Interactions</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:UTD-Trigger-Presence]
+        [Triggers:UTD-Trigger-UTDPresence]
+        [Triggers:UTD-Trigger-ReaverPresence]
+        [Triggers:UTD-Trigger-ReaverPresenceClear]
+
+      </Description>
+
+    </EntityComponent>
+    
+  <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-TriggerGroup-StationInteractions</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:UTD-Trigger-ReaverPresence]
+        [Triggers:UTD-Trigger-ReaverPresenceClear]
+
+      </Description>
+
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>

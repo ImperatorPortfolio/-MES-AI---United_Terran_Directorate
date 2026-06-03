@@ -1,0 +1,67 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Trigger-FlightLeader-CargoShipAssistDirect-Spawn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [CommandReceiveCode:UTDCargoShipDamage]
+
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:UTD-Action-FlightLeader-CargoShipAssistDirect-Spawn]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Action-FlightLeader-CargoShipAssistDirect-Spawn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:UTD-Chat-FlightLeader-CargoShipAssist]
+
+        [SwitchToReceivedTarget:true]
+        [SwitchTargetToDamager:true]
+        [InheritLastAttackerFromCommand:true]
+
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:UTD-Command-TargetFound]
+
+        [ChangeBehaviorSubclass:true]
+        [NewBehaviorSubclass:Fighter]
+
+        [ChangeAutopilotProfile:true]
+        [AutopilotProfile:Secondary]
+
+        [ChangeAutopilotSpeed:true]
+        [NewAutopilotSpeed:-1]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:UTD-Trigger-FlightLeader-AggressionSwitch]
+        [DisableTriggerNames:UTD-Trigger-FlightLeader-CargoShipAssistDirect-Spawn]
+        [DisableTriggerNames:UTD-Trigger-FlightLeader-GA-AssistDirect-Spawn]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:UTD-Trigger-FlightLeader-PassiveSwitch-Spawn]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

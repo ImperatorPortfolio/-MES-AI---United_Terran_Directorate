@@ -1,0 +1,82 @@
+UNITED TERRAN DIRECTORATE - MASTER ROSTER AND ROLE REFERENCE
+Generated placeholder-complete roster. Existing hulls were renamed into a U.S.-military-inspired doctrine. Missing roles were added as copied placeholder prefabs for later rebuild.
+
+AIR COMBAT / AVIATION
+---------------------
+F-24 Sparrow Interceptor | Role: Interceptor / point-defense fighter | Placeholder/source hull: Falcon
+F-27 Raptor Air Superiority Fighter | Role: Air superiority | Placeholder/source hull: Falcon Mk-II
+FA-38 Warden Multirole Fighter | Role: Multirole fighter | Placeholder/source hull: Arrowhead
+F-40 Viper Strike Fighter | Role: Strike fighter | Placeholder/source hull: Predator
+F-35 Specter Fleet Defense Fighter | Role: Fleet-defense interceptor | Placeholder/source hull: Saber
+F-45 Ranger Long Range Patrol Fighter | Role: Long-range patrol fighter | Placeholder/source hull: V207 Interplanetary Fighter
+B-12 Banshee Tactical Bomber | Role: Tactical bomber | Placeholder/source hull: Mako
+A-20 Reaper Close Air Support Aircraft | Role: CAS / attack aircraft | Placeholder/source hull: Scythe
+CV-11 Shadow Special Operations VTOL | Role: SOF VTOL | Placeholder/source hull: Swift Fighter VTOL
+RQ-9 Raven Tactical Recon VTOL | Role: Tactical recon | Placeholder/source hull: Raven Hovercopter
+
+ADDED AVIATION PLACEHOLDERS
+---------------------------
+E-7 Oracle Airborne Early Warning | Role: AWACS / airborne command and control | Placeholder/source hull: Wyvern
+EA-18 Specter Electronic Warfare Fighter | Role: Electronic attack / jamming / SEAD support | Placeholder/source hull: Arrowhead
+RQ-20 Sentinel Strategic Recon Fighter | Role: Strategic reconnaissance drone / scout | Placeholder/source hull: Falcon
+HC-17 Titan Combat Rescue | Role: Search and rescue / combat recovery | Placeholder/source hull: Wyvern
+AC-130 Spectre Gunship | Role: Gunship / persistent close air support | Placeholder/source hull: Valkyrie
+B-21 Wraith Strategic Bomber | Role: Stealth/strategic bomber placeholder | Placeholder/source hull: Mako
+C-5 Atlas Heavy Strategic Lifter | Role: Heavy strategic airlift | Placeholder/source hull: Wyvern
+MC-130 Talon SOF Infiltration Transport | Role: Special operations infiltration / support | Placeholder/source hull: Valkyrie
+HH-60 Pavehawk Rescue VTOL | Role: Combat search and rescue VTOL | Placeholder/source hull: Swift Fighter VTOL
+MQ-9 Reaper Armed Recon Drone | Role: Armed reconnaissance / overwatch drone | Placeholder/source hull: Raven Hovercopter
+
+TRANSPORT COMMAND
+-----------------
+C-12 Courier Utility Transport | Role: Utility transport | Placeholder/source hull: Osprey
+C-130 Atlas Tactical Airlift | Role: Tactical airlift | Placeholder/source hull: Valkyrie
+KC-130 Atlas Tanker | Role: Tanker | Placeholder/source hull: Valkyrie Mk-V
+C-17 Titan Strategic Airlift | Role: Strategic airlift | Placeholder/source hull: Wyvern
+C-17 Titan Logistics Variant | Role: Heavy cargo logistics | Placeholder/source hull: Wyvern wStorage Pod
+MC-17 Titan Special Operations Transport | Role: SOF transport | Placeholder/source hull: Wyvern wScorpion
+
+CARRIER / AMPHIBIOUS FORCE
+--------------------------
+CVA-10 Liberty Light Carrier | Role: Light carrier | Placeholder/source hull: Langley Mk-1 Helicarrier
+CVA-20 Independence Fleet Carrier | Role: Fleet carrier | Placeholder/source hull: Langley Mk-2 Helicarrier
+CVA-30 Constitution Super Carrier | Role: Super carrier | Placeholder/source hull: Langley Mk-3 Helicarrier
+LHA-01 Resolute Assault Carrier | Role: Assault carrier | Placeholder/source hull: Essex Interplanetary Helicarrier
+CVN-100 Legacy Fleet Supercarrier | Role: Fleet supercarrier | Placeholder/source hull: Legacy Carrier Dreadnought
+
+SURFACE / SPACE FLEET
+---------------------
+FFG-10 Sentinel Recon Frigate | Role: Recon frigate | Placeholder/source hull: Avalon Corvette
+DDG-20 Guardian Missile Defense Destroyer | Role: Missile-defense destroyer | Placeholder/source hull: Challenger Corvette
+PCC-12 Dauntless Patrol Combatant | Role: Patrol combatant | Placeholder/source hull: Dauntless Heavy FAC
+FFG-15 Escort Frigate | Role: Escort frigate | Placeholder/source hull: Jericho-S
+CA-25 Valiant Cruiser | Role: Cruiser | Placeholder/source hull: Excalibus
+CA-30 Valiant II Heavy Cruiser | Role: Heavy cruiser | Placeholder/source hull: Excalibus Mk-2
+DDG-40 Aegis Fleet Destroyer | Role: Fleet destroyer | Placeholder/source hull: Reaver Destroyer
+CG-50 Triumph Battlecruiser | Role: Battlecruiser | Placeholder/source hull: Trident
+CGA-80 Phoenix Assault Cruiser | Role: Assault cruiser | Placeholder/source hull: Phoenix Assault Cruiser
+BC-90 Dominion Battlecruiser | Role: Battlecruiser boss | Placeholder/source hull: Cerberus BattleCruiser
+CB-95 Exile Command Battlecruiser | Role: Command battlecruiser | Placeholder/source hull: Exile Battlecruiser
+
+LOGISTICS / SUPPORT
+-------------------
+CXS-10 Fleet Utility Shuttle | Role: Fleet utility shuttle | Placeholder/source hull: Arrowhead Cargo Shuttle
+T-AO Hercules Fleet Replenishment Ship | Role: Fleet replenishment | Placeholder/source hull: Koviri Heavy Freighter
+DSV-10 Marine Dropship | Role: Marine dropship | Placeholder/source hull: Dropship
+DSV-12 Cargo Dropship | Role: Cargo dropship | Placeholder/source hull: Dropship wStorage Pod
+
+ADDED FLEET / GROUND / SPACE FORCE PLACEHOLDERS
+-----------------------------------------------
+FFG-20 Watchtower Sensor Frigate | Role: Fleet ISR / sensor picket | Placeholder/source hull: Avalon Corvette
+DDG-30 Patriot Air Defense Destroyer | Role: Area air and missile defense | Placeholder/source hull: Challenger Corvette
+T-ATS Atlas Engineering Ship | Role: Engineering / salvage / construction support | Placeholder/source hull: Koviri Heavy Freighter
+T-AH Mercy Hospital Ship | Role: Medical support / hospital ship | Placeholder/source hull: Koviri Heavy Freighter
+T-AKE Titan Fleet Tender | Role: Ammunition and stores replenishment | Placeholder/source hull: Koviri Heavy Freighter
+WGS-1 Horizon Communications Relay | Role: Strategic communications relay | Placeholder/source hull: Avalon Corvette
+SBIRS-1 Sentinel Early Warning Station | Role: Missile warning / strategic surveillance | Placeholder/source hull: Avalon Corvette
+M1 Mammoth Main Battle Tank | Role: Main battle tank placeholder | Placeholder/source hull: Dropship wStorage Pod
+M2 Bradley Infantry Fighting Vehicle | Role: IFV placeholder | Placeholder/source hull: Dropship
+M1126 Stryker Armored Personnel Carrier | Role: APC placeholder | Placeholder/source hull: Dropship
+M142 Thunderbolt Rocket Artillery | Role: HIMARS-style rocket artillery placeholder | Placeholder/source hull: Dropship wStorage Pod
+MIM-104 Guardian SAM Vehicle | Role: Mobile surface-to-air missile vehicle placeholder | Placeholder/source hull: Dropship wStorage Pod
+LCAC-1 Marine Landing Craft | Role: Landing craft / assault landing connector | Placeholder/source hull: Dropship wStorage Pod

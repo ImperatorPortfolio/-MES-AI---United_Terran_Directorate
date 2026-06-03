@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-PrefabData-Drones</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Prefab Data]
+
+        [Prefabs:(NPC-UTD) FA-38 Warden Multirole Fighter]
+        [Prefabs:(NPC-UTD) F-24 Sparrow Interceptor]
+        [Prefabs:(NPC-UTD) F-27 Raptor Air Superiority Fighter]        
+        [Prefabs:(NPC-UTD) F-40 Viper Strike Fighter]                        
+        [Prefabs:(NPC-UTD) RQ-9 Raven Tactical Recon VTOL]
+        [Prefabs:(NPC-UTD) CV-11 Shadow Special Operations VTOL] 
+        [Prefabs:(NPC-UTD) B-12 Banshee Tactical Bomber]
+        [Prefabs:(NPC-UTD) F-35 Specter Fleet Defense Fighter]                      
+        [Prefabs:(NPC-UTD) F-45 Ranger Long Range Patrol Fighter]        
+        [Prefabs:(NPC-UTD) A-20 Reaper Close Air Support Aircraft]
+
+        [CustomTags:Drone]
+
+      </Description>
+
+    </EntityComponent>
+
+
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-PrefabData-Easy</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Prefab Data]
+
+        [Prefabs:(NPC-UTD) C-12 Courier Utility Transport]
+        [Prefabs:(NPC-UTD) CXS-10 Fleet Utility Shuttle]
+        [Prefabs:(NPC-UTD) DSV-10 Marine Dropship]
+        [Prefabs:(NPC-UTD) DSV-12 Cargo Dropship]
+        [Prefabs:(NPC-UTD) C-130 Atlas Tactical Airlift]
+        [Prefabs:(NPC-UTD) C-17 Titan Strategic Airlift] 
+        [Prefabs:(NPC-UTD) MC-17 Titan Special Operations Transport]        
+        [Prefabs:(NPC-UTD) C-17 Titan Logistics Variant]        
+        [Prefabs:(NPC-UTD) PCC-12 Dauntless Patrol Combatant]               
+        [Prefabs:(NPC-UTD) CG-50 Triumph Battlecruiser]
+        [Prefabs:(NPC-UTD) FFG-15 Escort Frigate]        
+
+        [CustomTags:Easy]
+
+      </Description>
+
+    </EntityComponent>
+
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-PrefabData-Medium</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Prefab Data]       
+
+        [Prefabs:(NPC-UTD) KC-130 Atlas Tanker]
+        [Prefabs:(NPC-UTD) T-AO Hercules Fleet Replenishment Ship]
+        [Prefabs:(NPC-UTD) CVA-10 Liberty Light Carrier]
+        [Prefabs:(NPC-UTD) CVA-20 Independence Fleet Carrier]
+        [Prefabs:(NPC-UTD) CA-25 Valiant Cruiser]
+        [Prefabs:(NPC-UTD) CA-30 Valiant II Heavy Cruiser]  
+        [Prefabs:(NPC-UTD) DDG-20 Guardian Missile Defense Destroyer]              
+        [Prefabs:(NPC-UTD) FFG-10 Sentinel Recon Frigate]
+        [Prefabs:(NPC-UTD) DDG-40 Aegis Fleet Destroyer]
+
+        [CustomTags:Medium]
+
+      </Description>
+
+    </EntityComponent>
+
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-PrefabData-Hard</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Prefab Data]
+
+        [Prefabs:(NPC-UTD) CVA-30 Constitution Super Carrier]        
+        [Prefabs:(NPC-UTD) BC-90 Dominion Battlecruiser]
+        [Prefabs:(NPC-UTD) CGA-80 Phoenix Assault Cruiser]        
+        [Prefabs:(NPC-UTD) CB-95 Exile Command Battlecruiser]
+        [Prefabs:(NPC-UTD) LHA-01 Resolute Assault Carrier]        
+        [Prefabs:(NPC-UTD) CVN-100 Legacy Fleet Supercarrier]
+
+        [CustomTags:Hard]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

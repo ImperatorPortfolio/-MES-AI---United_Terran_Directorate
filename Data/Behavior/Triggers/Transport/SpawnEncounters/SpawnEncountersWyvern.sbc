@@ -1,0 +1,103 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Trigger-SpawnEncountersWyvern</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Timer]
+
+        [Conditions:UTD-Condition-SpawnEncounters]
+
+        [MinCooldownMs:3000]
+        [MaxCooldownMs:3001]
+        [StartsReady:true]
+
+        [MaxActions:1]
+        [Actions:UTD-Action-SpawnEncountersWyvern]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Condition-SpawnEncounters</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Condition]
+
+        [UseConditions:true]
+
+        [AltitudeCheck:true]
+        [MaxAltitude:15]
+
+        [CheckGridSpeed:true]
+        [MaxGridSpeed:5]
+
+        //[UseRequiredFunctionalBlocks:true]
+        //[RequiredAnyFunctionalBlockNames:Passenger Seat]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Action-SpawnEncountersWyvern</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:UTD-Trigger-Retreat]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:UTD-Trigger-Retreat]
+
+        [ChangeBehaviorSubclass:true]
+        [NewBehaviorSubclass:Horsefly]
+
+        [SpawnEncounter:true]
+        [Spawner:UTD-Spawner-SpawnEncountersWyvern]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Spawner-SpawnEncountersWyvern</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+
+        [UseSpawn:true]
+        [SpawnMinCooldown:0.1]
+        [SpawnMaxCooldown:0.2]
+	      [StartsReady:true]
+
+        [MaxSpawns:1]
+        [SpawningType:Creature]
+        [SpawnGroups:UTD-SpawnGroup-Troopers]
+        [ProcessAsAdminSpawn:true]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

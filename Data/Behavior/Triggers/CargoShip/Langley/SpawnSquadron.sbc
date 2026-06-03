@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+
+   <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Trigger-SpawnSquadronMK1</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Timer]
+
+        [MinCooldownMs:180000]
+        [MaxCooldownMs:600000]
+        [StartsReady:false]
+
+        [MaxActions:3]
+        [ActionExecution:Random]
+        [Actions:UTD-Action-SpawnPatrol-Nothing]
+        [Actions:UTD-Action-SpawnPatrol-Nothing]        
+        [Actions:UTD-Action-SpawnSquadronMK1]
+        [Actions:UTD-Action-SpawnSquadronMK1]
+        [Actions:UTD-Action-SpawnSquadronMK1]
+
+      </Description>
+
+    </EntityComponent>
+
+   <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Trigger-SpawnSquadronMK2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Timer]
+
+        [MinCooldownMs:180000]
+        [MaxCooldownMs:600000]
+        [StartsReady:false]
+
+        [MaxActions:3]
+        [ActionExecution:Random]
+        [Actions:UTD-Action-SpawnPatrol-Nothing]
+        [Actions:UTD-Action-SpawnPatrol-Nothing]        
+        [Actions:UTD-Action-SpawnSquadronMK2]
+        [Actions:UTD-Action-SpawnSquadronMK2]
+        [Actions:UTD-Action-SpawnSquadronMK2]
+
+      </Description>
+
+    </EntityComponent>
+
+   <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Trigger-SpawnSquadronMK3</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Timer]
+
+        [MinCooldownMs:180000]
+        [MaxCooldownMs:600000]
+        [StartsReady:false]
+
+        [MaxActions:3]
+        [ActionExecution:Random]
+        [Actions:UTD-Action-SpawnPatrol-Nothing]    
+        [Actions:UTD-Action-SpawnPatrol-Nothing]            
+        [Actions:UTD-Action-SpawnSquadronMK3]
+        [Actions:UTD-Action-SpawnSquadronMK3]
+        [Actions:UTD-Action-SpawnSquadronMK3]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Action-SpawnSquadronMK1</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES AI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:UTD-Spawn-SpawnSquadronMK1]
+
+        [UseChatBroadcast:true]
+        [ChatData:UTD-Chat-SpawningCarrier]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Action-SpawnSquadronMK2</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES AI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:UTD-Spawn-SpawnSquadronMK2]
+
+        [UseChatBroadcast:true]
+        [ChatData:UTD-Chat-SpawningCarrier]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Action-SpawnSquadronMK3</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES AI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:UTD-Spawn-SpawnSquadronMK3]
+
+        [UseChatBroadcast:true]
+        [ChatData:UTD-Chat-SpawningCarrier]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Action-SpawnPatrol-Nothing</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+      </Description>
+
+    </EntityComponent>
+    
+	
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Spawn-SpawnSquadronMK1</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES AI Spawn]
+
+        [UseSpawn:true]
+        [StartsReady:true]
+        [MaxSpawns:-1]
+
+        [SpawnGroups:UTD-SpawnGroup-SquadronSwifts+Raven]
+        [SpawnGroups:UTD-SpawnGroup-SquadronArrowheads]
+        [SpawnGroups:UTD-SpawnGroup-SquadronArrowheads]
+        [SpawnGroups:UTD-SpawnGroup-SquadronPredators]
+        [SpawnGroups:UTD-SpawnGroup-SquadronPredators]
+        [SpawnGroups:UTD-SpawnGroup-SquadronPredators+Falcon]
+
+        [MinDistance:100]
+        [MaxDistance:1200]
+        [MinAltitude:2550]
+        [MaxAltitude:3500]
+
+      </Description>
+
+    </EntityComponent>
+    
+	
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Spawn-SpawnSquadronMK2</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES AI Spawn]
+
+        [UseSpawn:true]
+        [StartsReady:true]
+        [MaxSpawns:-1]
+
+        [SpawnGroups:UTD-SpawnGroup-SquadronArrowheads]
+        [SpawnGroups:UTD-SpawnGroup-SquadronPredators]
+        [SpawnGroups:UTD-SpawnGroup-SquadronPredators]
+        [SpawnGroups:UTD-SpawnGroup-SquadronPredators+Falcon]
+        [SpawnGroups:UTD-SpawnGroup-SquadronFalcons]
+        [SpawnGroups:UTD-SpawnGroup-SquadronFalcons]
+        [SpawnGroups:UTD-SpawnGroup-SquadronFalcons+MkII]
+        [SpawnGroups:UTD-SpawnGroup-SquadronScythes]
+        [SpawnGroups:UTD-SpawnGroup-SquadronWyverns]
+        [SpawnGroups:UTD-SpawnGroup-SquadronValkyrieMkVs]
+
+        [MinDistance:100]
+        [MaxDistance:1200]
+        [MinAltitude:2550]
+        [MaxAltitude:3500]
+
+      </Description>
+
+    </EntityComponent>
+    
+	
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Spawn-SpawnSquadronMK3</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES AI Spawn]
+
+        [UseSpawn:true]
+        [StartsReady:true]
+        [MaxSpawns:-1]
+
+        [SpawnGroups:UTD-SpawnGroup-SquadronArrowheads]
+        [SpawnGroups:UTD-SpawnGroup-SquadronFalcons+MkII]
+        [SpawnGroups:UTD-SpawnGroup-SquadronFalcons+MkII]
+        [SpawnGroups:UTD-SpawnGroup-SquadronFalconMkIIs]
+        [SpawnGroups:UTD-SpawnGroup-SquadronFalconMkIIs]
+        [SpawnGroups:UTD-SpawnGroup-SquadronSabers]
+        [SpawnGroups:UTD-SpawnGroup-SquadronV207s]        
+        [SpawnGroups:UTD-SpawnGroup-SquadronWyvernwScorpions]
+        [SpawnGroups:UTD-SpawnGroup-SquadronValkyrieMkVs]
+
+        [MinDistance:100]
+        [MaxDistance:1200]
+        [MinAltitude:2550]
+        [MaxAltitude:3500]
+
+      </Description>
+
+    </EntityComponent>
+	
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Chat-SpawningCarrier</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:5]
+        [BroadcastRandomly:true]
+        [Author:UTD Captain]
+        [Color:Red]
+
+        [ChatMessages:Flight Leader conduct sweep of this sector and remove unwanted contacts.]
+        [BroadcastChatType:Chat]
+        [ChatAudio:ArcHudQuestlogDetail]
+
+        [ChatMessages:You are clear for take off happy hunting.]
+        [BroadcastChatType:Chat]
+        [ChatAudio:ArcHudQuestlogDetail]
+
+        [ChatMessages:Deploy and sweep the area.]
+        [BroadcastChatType:Chat]
+        [ChatAudio:ArcHudQuestlogDetail]
+
+        [ChatMessages:Deploy and clear this sector of unknown contact.]
+        [BroadcastChatType:Chat]
+        [ChatAudio:ArcHudQuestlogDetail]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

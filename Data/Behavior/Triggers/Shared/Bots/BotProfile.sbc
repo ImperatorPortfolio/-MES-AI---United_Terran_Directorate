@@ -1,0 +1,114 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-BotSpawnProfile-CombatBot</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Bot Spawn]
+
+        [BotType:Default_Astronaut]
+        [ToolSubtypeId:AutomaticRifleItem]       
+        [BotBehavior:SOLDIER]
+        [UseAiEnabled:true]
+        [BotDisplayName:UTD Trooper]
+        [Color:{X:34 Y:85 Z:234}]
+
+	      [CanDamageGrids:true]
+        [CanUseLadders:true]
+        [CanUseSeats:true]
+
+        [DespawnTicks:108000]
+
+      </Description>
+
+    </EntityComponent>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-BotSpawnProfile-CombatRocketerBot</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Bot Spawn]
+
+        [BotType:Default_Astronaut]
+        [ToolSubtypeId:BasicHandHeldLauncherItem]       
+        [BotBehavior:SOLDIER]
+        [UseAiEnabled:true]
+        [BotDisplayName:UTD Rocketer]
+        [Color:{X:10 Y:85 Z:228}]
+
+	      [CanDamageGrids:true]
+        [CanUseLadders:true]
+        [CanUseSeats:true]
+
+        [DespawnTicks:108000]
+
+      </Description>
+
+    </EntityComponent>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-BotSpawnProfile-CombatEliteBot</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Bot Spawn]
+
+        [BotType:Default_Astronaut]
+        [ToolSubtypeId:UltimateAutomaticRifleItem]       
+        [BotBehavior:SOLDIER]
+        [UseAiEnabled:true]
+        [BotDisplayName:UTD Elite Trooper]
+        [Color:{X:10 Y:85 Z:228}]
+
+	      [CanDamageGrids:true]
+        [CanUseLadders:true]
+        [CanUseSeats:true]
+
+        [DespawnTicks:108000]
+
+      </Description>
+
+    </EntityComponent>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-BotSpawnProfile-CombatCaptainBot</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Bot Spawn]
+
+        [BotType:Default_Astronaut]
+        [ToolSubtypeId:ElitePistolItem]       
+        [BotBehavior:SOLDIER]
+        [UseAiEnabled:true]
+        [BotDisplayName:UTD Captain]
+        [Color:{X:15 Y:85 Z:234}]
+
+	      [CanDamageGrids:true]
+        [CanUseLadders:true]
+        [CanUseSeats:true]
+
+        [DespawnTicks:108000]
+
+      </Description>
+
+    </EntityComponent>
+
+
+  </EntityComponents>
+</Definitions>

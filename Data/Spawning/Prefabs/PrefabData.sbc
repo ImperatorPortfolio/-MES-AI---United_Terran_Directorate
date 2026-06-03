@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-PrefabData-Transport</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Prefab Data]
+
+        [Prefabs:(NPC-UTD) RQ-9 Raven Tactical Recon VTOL]
+        [Prefabs:(NPC-UTD) C-130 Atlas Tactical Airlift]
+        [Prefabs:(NPC-UTD) KC-130 Atlas Tanker]
+        [Prefabs:(NPC-UTD) C-17 Titan Strategic Airlift] 
+
+        [CustomTags:Transport]
+
+      </Description>
+
+    </EntityComponent>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-PrefabData-VehicleTransport</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Prefab Data]
+
+        [Prefabs:(NPC-UTD) C-130 Atlas Tactical Airlift wTerra Crawler]
+        [Prefabs:(NPC-UTD) C-130 Atlas Tactical Airlift wProwler]        
+        [Prefabs:(NPC-UTD) KC-130 Atlas Tanker wVanguard]
+        [Prefabs:(NPC-UTD) KC-130 Atlas Tanker wVanguard-B]
+
+        [CustomTags:Vehicle Transport]
+
+      </Description>
+
+    </EntityComponent>
+
+
+  </EntityComponents>
+</Definitions>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Trigger-AggressionSwitch</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+
+        [TargetDistance:1500]
+        [MaxPlayerReputation:-1450]
+
+        [Conditions:UTD-Condition-AggressionSwitch]
+
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:UTD-Action-AggressionSwitch]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Condition-AggressionSwitch</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Condition]
+
+        [UseConditions:true]
+
+        [CheckIfGridNameMatches:true]
+        [AllowPartialGridNameMatches:true]
+        [GridNamesToCheck:Dropship]              
+        [GridNamesToCheck:Wyvern]
+        [GridNamesToCheck:Valkyrie]        
+        [GridNamesToCheck:Langley]
+        [GridNamesToCheck:Excalibus]  
+        [GridNamesToCheck:Dauntless]  
+        [GridNamesToCheck:Trident] 
+        [GridNamesToCheck:Jericho-S]               
+        [GridNamesToCheck:Frigate]
+        [GridNamesToCheck:Corvette]
+        [GridNamesToCheck:Destroyer]
+        [GridNamesToCheck:Cruiser]  
+        [GridNamesToCheck:BattleCruiser]              
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Action-AggressionSwitch</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:UTD-Chat-AggressionSwitch]
+
+        [ChangeBehaviorSubclass:true]
+        [NewBehaviorSubclass:HorseFighter]
+
+        [ChangeAutopilotProfile:true]
+        [AutopilotProfile:Tertiary]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:UTD-Trigger-AggressionSwitch]
+        [DisableTriggerNames:UTD-Trigger-PlayerMilitaryDamageResponse]
+        [DisableTriggerNames:UTD-Trigger-CargoShipDamage]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:UTD-Trigger-PassiveSwitch]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Chat-AggressionSwitch</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+        [Author:UTD Crew]
+        [Color:Red]
+
+        [ChatMessages:Your constant hostility towards UTD will not be tolerated.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages:Known aggressors detected. Retaliatory strike authorized.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

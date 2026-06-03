@@ -1,0 +1,117 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Behavior-Escort</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Escort]
+
+        [WeaponSystem:UTD-Weapons-Drone]
+        [TargetData:UTD-Targeting-Drone]
+
+        [AutopilotData:UTD-AutoPilot-EscortDrone-A]
+        [SecondaryAutopilotData:UTD-AutoPilot-EscortDrone-B]
+
+        [Triggers:UTD-Trigger-RequestEscortSlot]
+        [Triggers:UTD-Trigger-AggressionSwitchEscort]
+        [Triggers:UTD-Trigger-PassiveSwitchEscort]
+        [Triggers:UTD-Trigger-RemoteControlDeath]
+
+        [Triggers:UTD-Trigger-ReaverPresenceNoChat]
+        [Triggers:UTD-Trigger-ReaverPresenceClear]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+      </Description>
+
+    </EntityComponent>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-AutoPilot-EscortDrone-A</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [DisableInertiaDampeners:false]
+        [SlowDownOnWaypointApproach:true]
+        [FlyLevelWithGravity:false]
+        [MinimumPlanetAltitude:75]
+        [IdealPlanetAltitude:150]
+        [WaypointTolerance:5]
+        [UseVelocityCollisionEvasion:true]
+        [WaypointWaitTimeTrigger:20]
+
+        [IdealMinSpeed:12]
+        [IdealMaxSpeed:18]
+        [MaxSpeedTolerance:3]
+
+        [LimitRotationSpeed:true]
+        [MaxRotationMagnitude:0.75]
+
+        [EscortSpeedMatchMinDistance:5]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-AutoPilot-EscortDrone-B</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [DisableInertiaDampeners:false]
+        [FlyLevelWithGravity:false]
+        [WaypointTolerance:40]
+        [IdealMinSpeed:40]
+        [IdealMaxSpeed:100]
+        [MaxSpeedTolerance:5]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:300]
+
+        [MinimumPlanetAltitude:350]
+        [IdealPlanetAltitude:550]
+
+        [UseProjectileLeadPrediction:true]
+        [AllowStrafing:true]
+        [StrafeMinDurationMs:1000]
+        [StrafeMaxDurationMs:2000]
+
+        [StrafeMinCooldownMs:1000]
+        [StrafeMaxCooldownMs:3000]
+
+        [StrafeMinimumTargetDistance:600]
+        [StrafeSpeedCutOff:80]
+        [StrafeDistanceCutOff:250]
+
+        [EngageDistanceSpace:400]
+        [EngageDistancePlanet:400]
+        [DisengageDistanceSpace:800]
+        [DisengageDistancePlanet:800]
+
+        [RotationMultiplier:2.5]
+
+        [UseVelocityCollisionEvasion:true]
+        [CollisionFallEvasionWaypointDistance:275]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

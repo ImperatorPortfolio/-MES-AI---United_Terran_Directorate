@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Manipulation-Group</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation Group]
+
+        [ManipulationProfiles:MES-Manipulation-RivalAi]
+        [ManipulationProfiles:MES-Manipulation-ResearchPoints]
+        [ManipulationProfiles:UTD-Manipulation-InhibitorA]
+        [ManipulationProfiles:UTD-Manipulation-InhibitorB]                      
+        [ManipulationProfiles:UTD-Manipulation-DroneThrustHigh]
+        [ManipulationProfiles:UTD-Manipulation-DroneEnergy]
+        [ManipulationProfiles:UTD-Manipulation-BasicLoot]
+        [ManipulationProfiles:UTD-Manipulation-MixedLoot]
+        [ManipulationProfiles:UTD-Manipulation-AdvancedLoot]
+        [ManipulationProfiles:UTD-Manipulation-InternalCleanup]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-BOSSManipulation-Group</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation Group]
+
+        [ManipulationProfiles:MES-Manipulation-RivalAi]
+        [ManipulationProfiles:MES-Manipulation-ResearchPoints]                    
+        [ManipulationProfiles:UTD-Manipulation-DroneThrustHigh]
+        [ManipulationProfiles:UTD-Manipulation-DroneEnergy]
+        [ManipulationProfiles:UTD-Manipulation-BasicLoot]
+        [ManipulationProfiles:UTD-Manipulation-MixedLoot]
+        [ManipulationProfiles:UTD-Manipulation-AdvancedLoot]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Manipulation-BasicLoot</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [ManipulationRequiredCustomTags:Easy]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+        [LootProfiles:MES-Loot-AntiInhibitor]
+        [LootProfiles:MES-Loot-BasicContainers]
+        [LootProfiles:MES-Loot-BasicContainersLarge]
+        [LootProfiles:MES-Loot-Corpses]
+        [LootProfiles:MES-Loot-Freight]
+        [LootProfiles:MES-Loot-Lockers]
+        [LootProfiles:MES-Loot-WeaponRacks]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Manipulation-MixedLoot</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [ManipulationRequiredCustomTags:Medium]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+        [LootProfiles:MES-Loot-AntiInhibitor]
+        [LootProfiles:MES-Loot-BasicContainers]
+        [LootProfiles:MES-Loot-BasicContainersLarge]        
+        [LootProfiles:MES-Loot-MixedContainers]
+        [LootProfiles:MES-Loot-MixedContainersLarge]
+        [LootProfiles:MES-Loot-Corpses]
+        [LootProfiles:MES-Loot-Freight]
+        [LootProfiles:MES-Loot-Lockers]
+        [LootProfiles:MES-Loot-WeaponRacks]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Manipulation-AdvancedLoot</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [ManipulationRequiredCustomTags:Hard]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+        [LootProfiles:MES-Loot-BasicContainers]
+        [LootProfiles:MES-Loot-BasicContainersLarge]        
+        [LootProfiles:MES-Loot-MixedContainers]
+        [LootProfiles:MES-Loot-MixedContainersLarge]        
+        [LootProfiles:MES-Loot-AdvancedContainers]
+        [LootProfiles:MES-Loot-AdvancedContainersLarge]
+        [LootProfiles:MES-Loot-AntiInhibitor]
+        [LootProfiles:MES-Loot-Corpses]
+        [LootProfiles:MES-Loot-Freight]
+        [LootProfiles:MES-Loot-Lockers]
+        [LootProfiles:MES-Loot-WeaponRacks]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Manipulation-InhibitorA</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+                        
+        [ManipulationAllowedPrefabIndexes:0]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Energy-Large]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Manipulation-InhibitorB</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [ManipulationRequiredCustomTags:Station]
+
+        [ManipulationAllowedPrefabIndexes:0]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Drill-Large]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Manipulation-Propulsion</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [SetNpcGyroscopeMultiplier:true]
+        [NpcGyroscopeMultiplier:1.5]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Manipulation-DroneThrust</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [ManipulationRequiredCustomTags:Drone]
+
+        [ManipulationRestrictedPrefabIndexes:0]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Hydro] 
+        [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]          
+
+        [ConfigureSpecialNpcThrusters:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcIonThrustForceMultiply:1.25]
+        [NpcHydroThrustPowerMultiply:0.0001]
+        [NpcHydroThrustForceMultiply:1]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustForceMultiply:1]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Manipulation-DroneThrustHigh</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [ManipulationRequiredCustomTags:Drone]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]        
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcIonThrustForceMultiply:1.25]
+        [NpcHydroThrustPowerMultiply:0.0001]
+        [NpcHydroThrustForceMultiply:1]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustForceMultiply:1]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Manipulation-DroneEnergy</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [ManipulationRequiredCustomTags:Drone]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-Energy-SmallBatteryToNpcBattery]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Manipulation-RandomizationLimits</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [ManipulationRestrictedPrefabIndexes:0]
+
+        [WeaponRandomizerTargetBlacklist:MyObjectBuilder_LargeGatlingTurret/SmallGatlingTurret]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Manipulation-InternalCleanup</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [EraseIngameScripts:true]
+        [DisableTimerBlocks:true]
+        [DisableSensorBlocks:true]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-GA-Manipulation-Group</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation Group]
+
+        [ManipulationProfiles:UTD-GA-Manipulation-RivalAi]
+        [ManipulationProfiles:UTD-GA-Manipulation-DroneThrust]
+        [ManipulationProfiles:UTD-GA-Manipulation-DroneThrustVT]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-GA-Manipulation-RivalAi</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ApplyBehaviorToNamedBlock:Remote Control (Transport)]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-GA-Manipulation-DroneThrust</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [ManipulationRequiredCustomTags:Transport]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]        
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcIonThrustForceMultiply:1.5]
+        [NpcHydroThrustPowerMultiply:0.0001]
+        [NpcHydroThrustForceMultiply:2.5]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustForceMultiply:2.5]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-GA-Manipulation-DroneThrustVT</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [ManipulationRequiredCustomTags:Vehicle Transport]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]        
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcIonThrustForceMultiply:3]
+        [RestrictNpcHydroThrust:true]
+        [NpcHydroThrustPowerMultiply:0.0001]
+        [NpcHydroThrustForceMultiply:5]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustForceMultiply:1.5]
+
+      </Description>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>

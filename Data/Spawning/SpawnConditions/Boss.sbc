@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-SpawnConditions-Boss</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [FactionOverride:UTD]
+        [BossEncounterAny:true]
+        [BossCustomAnnounceEnable:true]
+        [BossCustomAnnounceAuthor:UTD Commander]
+        [BossCustomAnnounceMessage:This sector is now temporary off-limits. Force will be used for those that fail to comply.]
+        [BossCustomGPSLabel:Dangerous UTD Encounter]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:15000]
+        [ThreatScoreMinimum:1500]
+
+        [RotateFirstCockpitToForward:true]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Behavior-Transport</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Horsefly]
+
+        [AutopilotData:UTD-AutoPilot-TransportA1]
+        [SecondaryAutopilotData:UTD-AutoPilot-TransportB2]
+        [TertiaryAutopilotData:UTD-AutoPilot-TransportA3]
+
+        [TriggerGroups:UTD-TriggerGroup-VehicleTransport]
+
+        [WeaponSystem:UTD-Weapons-Assault]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Behavior-TankTransport</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Horsefly]
+
+        [AutopilotData:UTD-AutoPilot-TransportA1]
+        [SecondaryAutopilotData:UTD-AutoPilot-TransportB2]
+        [TertiaryAutopilotData:UTD-AutoPilot-TransportA3]
+
+        [TriggerGroups:UTD-TriggerGroup-TankTransport]
+
+        [WeaponSystem:UTD-Weapons-Assault]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Behavior-Valkyrie</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Horsefly]
+
+        [AutopilotData:UTD-AutoPilot-TransportA1]
+        [SecondaryAutopilotData:UTD-AutoPilot-TransportA2]
+        [TertiaryAutopilotData:UTD-AutoPilot-TransportA3]
+
+        [TriggerGroups:UTD-TriggerGroup-Transport]
+        [Triggers:UTD-Trigger-SpawnEncountersValkyrie]
+
+        [WeaponSystem:UTD-Weapons-Assault]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Behavior-ValkyrieMKV</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Horsefly]
+
+        [AutopilotData:UTD-AutoPilot-TransportA1]
+        [SecondaryAutopilotData:UTD-AutoPilot-TransportA2]
+        [TertiaryAutopilotData:UTD-AutoPilot-TransportA3]
+
+        [TriggerGroups:UTD-TriggerGroup-Transport]
+        [Triggers:UTD-Trigger-SpawnEncountersValkyrieMKV]
+
+        [WeaponSystem:UTD-Weapons-Assault]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Behavior-Wyvern</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Horsefly]
+
+        [AutopilotData:UTD-AutoPilot-TransportA1]
+        [SecondaryAutopilotData:UTD-AutoPilot-TransportA2]
+        [TertiaryAutopilotData:UTD-AutoPilot-TransportA3]
+
+        [TriggerGroups:UTD-TriggerGroup-Transport]
+        [Triggers:UTD-Trigger-SpawnEncountersWyvern]
+
+        [WeaponSystem:UTD-Weapons-Assault]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Behavior-Raven</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Horsefly]
+
+        [AutopilotData:UTD-AutoPilot-TransportA1]
+        [SecondaryAutopilotData:UTD-AutoPilot-TransportA2]
+        [TertiaryAutopilotData:UTD-AutoPilot-TransportA3]
+
+        [TriggerGroups:UTD-TriggerGroup-Transport]
+        [Triggers:UTD-Trigger-SpawnEncountersRaven]
+
+        [WeaponSystem:UTD-Weapons-Assault]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

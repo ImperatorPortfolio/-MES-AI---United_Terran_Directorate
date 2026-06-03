@@ -1,0 +1,87 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Trigger-LandedVT</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Timer]
+
+        [Conditions:UTD-Condition-LandedVT]
+
+        [MinCooldownMs:1]
+        [MaxCooldownMs:2]
+        [StartsReady:true]
+
+        [MaxActions:1]
+        [Actions:UTD-Action-LandedVT]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Condition-LandedVT</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Condition]
+
+        [UseConditions:true]
+
+        [AltitudeCheck:true]
+        [MaxAltitude:30]
+
+        [CheckGridSpeed:true]
+        [MaxGridSpeed:10]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Action-LandedVT</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ChangeBehaviorSubclass:true]
+        [NewBehaviorSubclass:Passive]
+
+        [ChangeAutopilotSpeed:true]
+        [NewAutopilotSpeed:0]
+
+	      [EnableBlocks:true]
+        [EnableBlockNames:Connector - Rear Bottom]
+        [EnableBlockStates:Off]
+        [EnableBlockNames:Car Lift Connector]
+        [EnableBlockStates:Off]
+        [TriggerTimerBlocks:true]
+        [TimerBlockNames:GA-Timer Block]
+
+        [StopAllRotation:true]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:UTD-Trigger-RetreatVT]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:UTD-Trigger-RetreatVT]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

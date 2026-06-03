@@ -1,0 +1,48 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Trigger-ReaverPresenceNoChat</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [CommandReceiveCode:Reaver-Command-Presence]
+
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:UTD-Action-ReaverPresenceNoChat]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Action-ReaverPresenceNoChat</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [DisableHighestRangeAntennas:true]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:UTD-Trigger-ReaverPresenceClear]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:UTD-Trigger-ReaverPresenceClear]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

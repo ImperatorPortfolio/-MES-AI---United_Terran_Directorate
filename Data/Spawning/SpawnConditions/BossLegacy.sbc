@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-SpawnConditions-BossLegacy</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [FactionOverride:UTD]
+        [BossEncounterSpace:true]
+        [BossCustomAnnounceEnable:true]
+        [BossCustomAnnounceAuthor:Suit AI]
+        [BossCustomAnnounceMessage:Detecting a large unknown reading in this sector, heavy caution is advised.]
+        [BossCustomGPSLabel:UTD Legacy Dreadnought Encounter]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:15000]
+        [ThreatScoreMinimum:1500]
+
+        [RotateFirstCockpitToForward:true]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

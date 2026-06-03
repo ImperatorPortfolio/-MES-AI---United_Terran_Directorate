@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Factions>
+
+    <Faction Tag="UTD" Founder="General Venom">
+      <Id>
+        <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+        <SubtypeId>UTD</SubtypeId>
+      </Id>
+      <DisplayName>United Terran Directorate</DisplayName>
+      <Description>The United Terran Directorate is an iron-fisted military regime that consolidated global power under a clinical, absolute governing council to mobilize humanity's entire industrial and martial might toward the stars.</Description>
+      <IsDefault>true</IsDefault>
+      <DefaultRelation>Enemies</DefaultRelation>
+      <AcceptHumans>false</AcceptHumans>
+      <AutoAcceptMember>false</AutoAcceptMember>
+      <FactionIcon></FactionIcon>
+    </Faction>
+
+  </Factions>
+</Definitions>

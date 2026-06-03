@@ -1,0 +1,497 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-ArrowheadCargo</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-SpaceCargoShip]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) CXS-10 Fleet Utility Shuttle">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-CargoShipNoAI</Behaviour>
+        </Prefab>          
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-Dropship</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-SpaceCargoShip]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) DSV-10 Marine Dropship">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-MilitaryCargoShipSG</Behaviour>
+        </Prefab>          
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-DropshipStorage</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-SpaceCargoShip]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) DSV-12 Cargo Dropship">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-MilitaryCargoShipSG</Behaviour>
+        </Prefab>          
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-Koviri</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-SpaceCargoShip]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) T-AO Hercules Fleet Replenishment Ship">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-CargoShipSmallCrew</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) B-12 Banshee Tactical Bomber">
+          <Position>
+            <X>150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-Escort</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) B-12 Banshee Tactical Bomber">
+          <Position>
+            <X>-150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-Escort</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-Excalibus</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-SpaceCargoShip]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) CA-25 Valiant Cruiser">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-MilitaryCargoShip</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-40 Viper Strike Fighter">
+          <Position>
+            <X>150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-Escort</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-40 Viper Strike Fighter">
+          <Position>
+            <X>-150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-Escort</Behaviour>
+        </Prefab>          
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-ExcalibusMk2</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-SpaceCargoShip]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) CA-30 Valiant II Heavy Cruiser">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-MilitaryCargoShip</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-40 Viper Strike Fighter">
+          <Position>
+            <X>150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-Escort</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-40 Viper Strike Fighter">
+          <Position>
+            <X>-150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-Escort</Behaviour>
+        </Prefab>          
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-Challenger</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-SpaceCargoShip]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) DDG-20 Guardian Missile Defense Destroyer">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-MilitaryCargoShip</Behaviour>
+       </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-24 Sparrow Interceptor">
+          <Position>
+            <X>150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-Escort</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-24 Sparrow Interceptor">
+          <Position>
+            <X>-150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-Escort</Behaviour>
+        </Prefab>          
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-Dauntless</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-SpaceCargoShip]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) PCC-12 Dauntless Patrol Combatant">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-MilitaryCargoShipNoAI</Behaviour>
+        </Prefab>          
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-Trident</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-SpaceCargoShip]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) CG-50 Triumph Battlecruiser">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-MilitaryCargoShipNoAI</Behaviour>
+        </Prefab>          
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-Jericho</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-SpaceCargoShip]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) FFG-15 Escort Frigate">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-MilitaryCargoShipNoAI</Behaviour>
+        </Prefab>          
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-Avalon</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-SpaceCargoShip]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) FFG-10 Sentinel Recon Frigate">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-MilitaryCargoShip</Behaviour>
+       </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-24 Sparrow Interceptor">
+          <Position>
+            <X>150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-Escort</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-24 Sparrow Interceptor">
+          <Position>
+            <X>-150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-Escort</Behaviour>
+        </Prefab>          
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-Reaver</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-SpaceCargoShip]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) DDG-40 Aegis Fleet Destroyer">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-MilitaryCargoShip</Behaviour>
+       </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-24 Sparrow Interceptor">
+          <Position>
+            <X>150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-Escort</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-24 Sparrow Interceptor">
+          <Position>
+            <X>-150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-Escort</Behaviour>
+        </Prefab>          
+      </Prefabs>
+    </SpawnGroup>
+
+  </SpawnGroups>
+</Definitions>

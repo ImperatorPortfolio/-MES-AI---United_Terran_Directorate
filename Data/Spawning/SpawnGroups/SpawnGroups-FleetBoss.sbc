@@ -1,0 +1,270 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-FleetLangleyMk2</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-SpawnConditions-FleetBoss]
+        [PlanetBlacklist:Pertam]        
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-BOSSManipulation-Group]
+        [ManipulationProfiles:UTD-Manipulation-Propulsion]
+        [MaxGravity:1.0]
+
+        [PrefabSpawningMode:All]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.4</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) CVA-20 Independence Fleet Carrier">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FleetBoss</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) CVA-10 Liberty Light Carrier">
+          <Position>
+            <X>-175.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscort</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) CVA-10 Liberty Light Carrier">
+          <Position>
+            <X>175.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscort</Behaviour>
+        </Prefab>          
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-FleetLangleyMk3</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-SpawnConditions-FleetBoss]
+        [PlanetBlacklist:Pertam]        
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-BOSSManipulation-Group]
+        [ManipulationProfiles:UTD-Manipulation-Propulsion]
+        [MaxGravity:1.0]
+
+        [PrefabSpawningMode:All]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.4</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) CVA-30 Constitution Super Carrier">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FleetBoss</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) CVA-20 Independence Fleet Carrier">
+          <Position>
+            <X>-175.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscort</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) CVA-20 Independence Fleet Carrier">
+          <Position>
+            <X>175.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscort</Behaviour>
+        </Prefab>          
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-CerberusFleet</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-SpawnConditions-FleetBoss]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-BOSSManipulation-Group]
+        [ManipulationProfiles:UTD-Manipulation-Propulsion]
+        [MaxGravity:0]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.4</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) BC-90 Dominion Battlecruiser">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FleetBoss</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) FFG-10 Sentinel Recon Frigate">
+          <Position>
+            <X>-150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscort</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) PCC-12 Dauntless Patrol Combatant">
+          <Position>
+            <X>150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscort</Behaviour>
+        </Prefab>      
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-PhoenixFleet</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-SpawnConditions-FleetBoss]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-BOSSManipulation-Group]
+        [ManipulationProfiles:UTD-Manipulation-Propulsion]
+        [MaxGravity:0]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.4</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) CGA-80 Phoenix Assault Cruiser">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FleetBoss</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) DDG-40 Aegis Fleet Destroyer">
+          <Position>
+            <X>-150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscort</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) CG-50 Triumph Battlecruiser">
+          <Position>
+            <X>150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscort</Behaviour>
+        </Prefab>      
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-ExileFleet</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:UTD-SpawnConditions-FleetBoss]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:UTD-BOSSManipulation-Group]
+        [ManipulationProfiles:UTD-Manipulation-Propulsion]
+        [MaxGravity:0]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.4</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) CB-95 Exile Command Battlecruiser">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-FleetBoss</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) DDG-40 Aegis Fleet Destroyer">
+          <Position>
+            <X>-150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscort</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) FFG-15 Escort Frigate">
+          <Position>
+            <X>150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>18</Speed>
+          <Behaviour>UTD-Behavior-BossEscort</Behaviour>
+        </Prefab>      
+      </Prefabs>
+    </SpawnGroup>
+
+  </SpawnGroups>
+</Definitions>

@@ -1,0 +1,626 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/9001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/9001/XMLSchema">
+	<SpawnGroups>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>UTD-GA-SpawnGroup-Raven</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[DroneEncounter:true]
+				[MinimumPlayerTime:2700]
+				[MaximumPlayerTime:3600]
+				[FailedDroneSpawnResetsPlayerTime:true]
+				[MinDroneDistance:2000]
+				[MaxDroneDistance:2001]
+				[MinDroneAltitude:6750]
+				[MaxDroneAltitude:6751]
+				[DroneInheritsSourceAltitude:true]
+				[DroneEncounterChance:9]
+				[UsePlayerFactionReputation:true]		
+	            [MaximumReputation:-1400]										
+
+				[PlanetBlacklist:Pertam]
+				[AiEnabledReady:true]
+
+				[FactionOwner:UTD]
+				[ReplenishSystems:true]
+
+				[UseBlockReplacerProfile:true]
+				[IgnoreGlobalBlockReplacer:true]
+				[ManipulationGroups:UTD-GA-Manipulation-Group]
+			    [RotateFirstCockpitToForward:true]
+
+				[OverrideBlockDamageModifier:true]
+				[BlockDamageModifier:90]
+		
+				[UseCombatPhase:false]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-UTD) RQ-9 Raven Tactical Recon VTOL">
+					<Position>
+						<X>0.0</X>
+						<Y>75.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>UTD-Behavior-Main-Raven</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-UTD) RQ-9 Raven Tactical Recon VTOL">
+					<Position>
+						<X>0.0</X>
+						<Y>-75.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>UTD-Behavior-Raven</Behaviour>
+				</Prefab>				
+			</Prefabs>
+		</SpawnGroup>
+
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>UTD-GA-SpawnGroup-Wyvern</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[DroneEncounter:true]
+				[MinimumPlayerTime:2700]
+				[MaximumPlayerTime:3600]
+				[FailedDroneSpawnResetsPlayerTime:true]
+				[MinDroneDistance:2000]
+				[MaxDroneDistance:2001]
+				[MinDroneAltitude:6750]
+				[MaxDroneAltitude:6751]
+				[DroneInheritsSourceAltitude:false]
+				[DroneEncounterChance:9]
+				[UsePlayerFactionReputation:true]								
+				[MaximumReputation:-1400]
+
+				[PlanetBlacklist:Pertam]
+				[AiEnabledReady:true]
+
+				[FactionOwner:UTD]
+				[ReplenishSystems:true]
+
+				[UseBlockReplacerProfile:true]
+				[IgnoreGlobalBlockReplacer:true]
+				[ManipulationGroups:UTD-GA-Manipulation-Group]
+			    [RotateFirstCockpitToForward:true]
+
+				[OverrideBlockDamageModifier:true]
+				[BlockDamageModifier:90]
+		
+				[UseCombatPhase:false]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-UTD) C-17 Titan Strategic Airlift">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>UTD-Behavior-Main-Wyvern</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>UTD-GA-SpawnGroup-Wyverns</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[DroneEncounter:true]
+				[MinimumPlayerTime:2700]
+				[MaximumPlayerTime:3600]
+				[FailedDroneSpawnResetsPlayerTime:true]
+				[MinDroneDistance:2000]
+				[MaxDroneDistance:2001]
+				[MinDroneAltitude:6750]
+				[MaxDroneAltitude:6751]
+				[DroneInheritsSourceAltitude:false]
+				[DroneEncounterChance:9]
+				[UsePlayerFactionReputation:true]								
+				[MaximumReputation:-1400]
+
+				[PlanetBlacklist:Pertam]
+				[AiEnabledReady:true]
+
+				[FactionOwner:UTD]
+				[ReplenishSystems:true]
+
+				[UseBlockReplacerProfile:true]
+				[IgnoreGlobalBlockReplacer:true]
+				[ManipulationGroups:UTD-GA-Manipulation-Group]
+			    [RotateFirstCockpitToForward:true]
+
+				[OverrideBlockDamageModifier:true]
+				[BlockDamageModifier:90]
+		
+				[UseCombatPhase:false]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-UTD) C-17 Titan Strategic Airlift">
+					<Position>
+						<X>0.0</X>
+						<Y>75.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>UTD-Behavior-Main-Wyvern</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-UTD) C-17 Titan Strategic Airlift">
+					<Position>
+						<X>0.0</X>
+						<Y>-75.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>UTD-Behavior-Wyvern</Behaviour>
+				</Prefab>				
+			</Prefabs>
+		</SpawnGroup>
+
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>UTD-GA-SpawnGroup-Valkyrie</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[DroneEncounter:true]
+				[MinimumPlayerTime:2700]
+				[MaximumPlayerTime:3600]
+				[FailedDroneSpawnResetsPlayerTime:true]
+				[MinDroneDistance:2000]
+				[MaxDroneDistance:2001]
+				[MinDroneAltitude:6750]
+				[MaxDroneAltitude:6751]
+				[DroneInheritsSourceAltitude:false]
+				[DroneEncounterChance:9]
+				[UsePlayerFactionReputation:true]								
+				[MaximumReputation:-1400]
+
+				[PlanetBlacklist:Pertam]
+				[AiEnabledReady:true]
+
+				[FactionOwner:UTD]
+				[ReplenishSystems:true]
+
+				[UseBlockReplacerProfile:true]
+				[IgnoreGlobalBlockReplacer:true]
+			    [ManipulationGroups:UTD-GA-Manipulation-Group]
+			    [RotateFirstCockpitToForward:true]
+
+				[OverrideBlockDamageModifier:true]
+				[BlockDamageModifier:90]
+		
+				[UseCombatPhase:false]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-UTD) C-130 Atlas Tactical Airlift">
+					<Position>
+						<X>0.0</X>
+						<Y>75.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>UTD-Behavior-Main-Valkyrie</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-UTD) C-130 Atlas Tactical Airlift">
+					<Position>
+						<X>0.0</X>
+						<Y>-75.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>UTD-Behavior-Valkyrie</Behaviour>
+				</Prefab>				
+			</Prefabs>
+		</SpawnGroup>
+
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>UTD-GA-SpawnGroup-Valkyrie+Prowler</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[DroneEncounter:true]
+				[MinimumPlayerTime:2700]
+				[MaximumPlayerTime:3600]
+				[FailedDroneSpawnResetsPlayerTime:true]
+				[MinDroneDistance:6750]
+				[MaxDroneDistance:6751]
+				[MinDroneAltitude:1400]
+				[MaxDroneAltitude:1751]
+				[DroneInheritsSourceAltitude:false]
+				[DroneEncounterChance:9]
+				[UsePlayerFactionReputation:true]								
+				[MaximumReputation:-1400]
+
+				[PlanetBlacklist:Pertam]
+				[AiEnabledReady:true]
+
+				[FactionOwner:UTD]
+				[ReplenishSystems:true]
+
+				[UseBlockReplacerProfile:true]
+				[IgnoreGlobalBlockReplacer:true]
+			    [ManipulationGroups:UTD-GA-Manipulation-Group]
+			    [RotateFirstCockpitToForward:true]
+
+				[OverrideBlockDamageModifier:true]
+				[BlockDamageModifier:90]
+		
+				[UseCombatPhase:false]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.75</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-UTD) C-130 Atlas Tactical Airlift">
+					<Position>
+						<X>0.0</X>
+						<Y>75.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>UTD-Behavior-Main-Valkyrie</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-UTD) C-130 Atlas Tactical Airlift">
+					<Position>
+						<X>0.0</X>
+						<Y>-75.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>UTD-Behavior-Valkyrie</Behaviour>
+				</Prefab>	
+				<Prefab SubtypeId="(NPC-UTD) C-130 Atlas Tactical Airlift wProwler">
+					<Position>
+						<X>0.0</X>
+						<Y>150.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>UTD-Behavior-Transport</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-UTD) C-130 Atlas Tactical Airlift wProwler">
+					<Position>
+						<X>0.0</X>
+						<Y>-150.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>UTD-Behavior-Transport</Behaviour>
+				</Prefab>											
+			</Prefabs>
+		</SpawnGroup>
+
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>UTD-GA-SpawnGroup-Valkyrie+Terra</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[DroneEncounter:true]
+				[MinimumPlayerTime:2700]
+				[MaximumPlayerTime:3600]
+				[FailedDroneSpawnResetsPlayerTime:true]
+				[MinDroneDistance:6750]
+				[MaxDroneDistance:6751]
+				[MinDroneAltitude:1400]
+				[MaxDroneAltitude:1751]
+				[DroneInheritsSourceAltitude:false]
+				[DroneEncounterChance:9]
+				[UsePlayerFactionReputation:true]
+				[MaximumReputation:-1400]
+
+				[PlanetBlacklist:Pertam]
+				[AiEnabledReady:true]
+
+				[FactionOwner:UTD]
+				[ReplenishSystems:true]
+
+				[UseBlockReplacerProfile:true]
+				[IgnoreGlobalBlockReplacer:true]
+			    [ManipulationGroups:UTD-GA-Manipulation-Group]
+			    [RotateFirstCockpitToForward:true]
+
+				[OverrideBlockDamageModifier:true]
+				[BlockDamageModifier:90]
+		
+				[UseCombatPhase:false]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.75</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-UTD) C-130 Atlas Tactical Airlift">
+					<Position>
+						<X>0.0</X>
+						<Y>75.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>UTD-Behavior-Main-Valkyrie</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-UTD) C-130 Atlas Tactical Airlift">
+					<Position>
+						<X>0.0</X>
+						<Y>-75.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>UTD-Behavior-Valkyrie</Behaviour>
+				</Prefab>	
+				<Prefab SubtypeId="(NPC-UTD) C-130 Atlas Tactical Airlift wTerra Crawler">
+					<Position>
+						<X>0.0</X>
+						<Y>150.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>UTD-Behavior-Transport</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-UTD) C-130 Atlas Tactical Airlift wTerra Crawler">
+					<Position>
+						<X>0.0</X>
+						<Y>-150.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>UTD-Behavior-Transport</Behaviour>
+				</Prefab>											
+			</Prefabs>
+		</SpawnGroup>
+
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>UTD-GA-SpawnGroup-ValkyrieMkV</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[DroneEncounter:true]
+				[MinimumPlayerTime:2700]
+				[MaximumPlayerTime:3600]
+				[FailedDroneSpawnResetsPlayerTime:true]
+				[MinDroneDistance:2000]
+				[MaxDroneDistance:2001]
+				[MinDroneAltitude:6000]
+				[MaxDroneAltitude:6750]
+				[DroneInheritsSourceAltitude:false]
+				[DroneEncounterChance:9]
+				[UsePlayerFactionReputation:true]								
+				[MaximumReputation:-1400]
+
+				[PlanetBlacklist:Pertam]
+				[AiEnabledReady:true]
+
+				[FactionOwner:UTD]
+				[ReplenishSystems:true]
+
+				[UseBlockReplacerProfile:true]
+				[IgnoreGlobalBlockReplacer:true]
+				[ManipulationGroups:UTD-GA-Manipulation-Group]
+			    [RotateFirstCockpitToForward:true]
+
+				[OverrideBlockDamageModifier:true]
+				[BlockDamageModifier:90]
+		
+				[UseCombatPhase:false]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-UTD) KC-130 Atlas Tanker">
+					<Position>
+						<X>0.0</X>
+						<Y>75.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>UTD-Behavior-Main-ValkyrieMKV</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-UTD) KC-130 Atlas Tanker">
+					<Position>
+						<X>0.0</X>
+						<Y>-75.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>UTD-Behavior-Valkyrie</Behaviour>
+				</Prefab>				
+			</Prefabs>
+		</SpawnGroup>
+
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>UTD-GA-SpawnGroup-ValkyrieMkV+Vanguard</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[DroneEncounter:true]
+				[MinimumPlayerTime:2700]
+				[MaximumPlayerTime:3600]
+				[FailedDroneSpawnResetsPlayerTime:true]
+				[MinDroneDistance:6750]
+				[MaxDroneDistance:6751]
+				[MinDroneAltitude:1400]
+				[MaxDroneAltitude:1751]
+				[DroneInheritsSourceAltitude:false]
+				[DroneEncounterChance:9]
+				[UsePlayerFactionReputation:true]
+				[MaximumReputation:-1400]
+
+				[PlanetBlacklist:Pertam]
+				[AiEnabledReady:true]
+
+				[FactionOwner:UTD]
+				[ReplenishSystems:true]
+
+				[UseBlockReplacerProfile:true]
+				[IgnoreGlobalBlockReplacer:true]
+				[ManipulationGroups:UTD-GA-Manipulation-Group]
+			    [RotateFirstCockpitToForward:true]
+
+				[OverrideBlockDamageModifier:true]
+				[BlockDamageModifier:90]
+		
+				[UseCombatPhase:false]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.6</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-UTD) KC-130 Atlas Tanker">
+					<Position>
+						<X>0.0</X>
+						<Y>75.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>UTD-Behavior-Main-ValkyrieMKV</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-UTD) KC-130 Atlas Tanker">
+					<Position>
+						<X>0.0</X>
+						<Y>-75.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>UTD-Behavior-Valkyrie</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-UTD) KC-130 Atlas Tanker wVanguard">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>150.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>UTD-Behavior-TankTransport</Behaviour>
+				</Prefab>									
+			</Prefabs>
+		</SpawnGroup>
+
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>UTD-GA-SpawnGroup-ValkyrieMkV+Vanguard-B</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[DroneEncounter:true]
+				[MinimumPlayerTime:2700]
+				[MaximumPlayerTime:3600]
+				[FailedDroneSpawnResetsPlayerTime:true]
+				[MinDroneDistance:6750]
+				[MaxDroneDistance:6751]
+				[MinDroneAltitude:1400]
+				[MaxDroneAltitude:1751]
+				[DroneInheritsSourceAltitude:false]
+				[DroneEncounterChance:9]
+				[UsePlayerFactionReputation:true]								
+				[MaximumReputation:-1400]
+
+				[PlanetBlacklist:Pertam]
+				[AiEnabledReady:true]
+
+				[FactionOwner:UTD]
+				[ReplenishSystems:true]
+
+				[UseBlockReplacerProfile:true]
+				[IgnoreGlobalBlockReplacer:true]
+				[ManipulationGroups:UTD-GA-Manipulation-Group]
+			    [RotateFirstCockpitToForward:true]
+
+				[OverrideBlockDamageModifier:true]
+				[BlockDamageModifier:90]
+		
+				[UseCombatPhase:false]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.6</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-UTD) KC-130 Atlas Tanker">
+					<Position>
+						<X>0.0</X>
+						<Y>75.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>UTD-Behavior-Main-ValkyrieMKV</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-UTD) KC-130 Atlas Tanker">
+					<Position>
+						<X>0.0</X>
+						<Y>-75.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>UTD-Behavior-Valkyrie</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-UTD) KC-130 Atlas Tanker wVanguard-B">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>150.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>UTD-Behavior-TankTransport</Behaviour>
+				</Prefab>									
+			</Prefabs>
+		</SpawnGroup>
+
+	</SpawnGroups>
+</Definitions>

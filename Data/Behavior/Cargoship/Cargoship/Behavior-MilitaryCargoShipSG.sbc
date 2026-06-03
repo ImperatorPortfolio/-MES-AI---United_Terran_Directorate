@@ -1,0 +1,126 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Behavior-MilitaryCargoShipSG</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:CargoShip]
+
+        [AutopilotData:UTD-AutoPilot-MilitaryCargoShipSG]
+        [SecondaryAutopilotData:UTD-AutoPilot-MilitaryCargoShipSG-B]
+        [TertiaryAutopilotData:UTD-AutoPilot-Boss-B]
+
+        [Triggers:UTD-Trigger-AggressionSwitch]       
+        [Triggers:UTD-Trigger-PassiveSwitch]
+        [Triggers:UTD-Trigger-ReturnToDespawn]
+        [Triggers:UTD-Trigger-ShipDamage]
+        [Triggers:UTD-Trigger-ReturnToSpeed]
+        [Triggers:UTD-Trigger-ProcessEscortRequest]
+        [Triggers:UTD-Trigger-PlayerMilitaryDamageResponse]
+        [Triggers:UTD-Trigger-InhibitorAltitudeON]         
+        [Triggers:UTD-Trigger-InhibitorAltitudeOFF]
+        [Triggers:UTD-Trigger-RemoteControlDeath]
+
+        [TriggerGroups:UTD-TriggerGroup-Interactions]
+
+        [EscortOffsets:{X:-250 Y:0 Z:0}]
+        [EscortOffsets:{X:250 Y:0 Z:0}]
+        [EscortOffsets:{X:-400 Y:0 Z:0}]
+        [EscortOffsets:{X:400 Y:0 Z:0}]
+        [EscortOffsets:{X:-550 Y:0 Z:0}]
+        [EscortOffsets:{X:550 Y:0 Z:0}]
+
+        [TargetData:UTD-Targeting-CargoShip]
+        [OverrideTargetData:UTD-Targeting-CargoShip-Override]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-AutoPilot-MilitaryCargoShipSG</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:50]        
+        [FlyLevelWithGravity:true]
+        [ForceDampenersEnabled:true]
+
+        [WaypointTolerance:25]
+        
+        [IdealMinSpeed:12]
+        [IdealMaxSpeed:20]
+        [MaxSpeedTolerance:3]
+
+        [MinimumPlanetAltitude:1000]
+        [IdealPlanetAltitude:1200]
+
+        [AllowStrafing:true]
+        [StrafeMinDurationMs:1000]
+        [StrafeMaxDurationMs:1500]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-AutoPilot-MilitaryCargoShipSG-B</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [DisableInertiaDampeners:false]
+        [FlyLevelWithGravity:false]
+        [WaypointTolerance:40]
+        [IdealMinSpeed:40]
+        [IdealMaxSpeed:100]
+        [MaxSpeedTolerance:5]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:300]
+
+        [MinimumPlanetAltitude:350]
+        [IdealPlanetAltitude:550]
+
+        [UseProjectileLeadPrediction:true]
+        [AllowStrafing:true]
+        [StrafeMinDurationMs:1000]
+        [StrafeMaxDurationMs:2000]
+
+        [StrafeMinCooldownMs:1000]
+        [StrafeMaxCooldownMs:3000]
+
+        [StrafeMinimumTargetDistance:600]
+        [StrafeSpeedCutOff:80]
+        [StrafeDistanceCutOff:250]
+
+        [EngageDistanceSpace:400]
+        [EngageDistancePlanet:400]
+        [DisengageDistanceSpace:800]
+        [DisengageDistancePlanet:800]
+
+        [RotationMultiplier:2.5]
+
+        [UseVelocityCollisionEvasion:true]
+        [CollisionFallEvasionWaypointDistance:275]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

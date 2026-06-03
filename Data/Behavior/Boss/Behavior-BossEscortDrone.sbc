@@ -1,0 +1,123 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Behavior-BossEscortDrone</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Fighter]
+
+        [Triggers:UTD-Trigger-RemoteControlDeath]
+
+        [AutopilotData:UTD-AutoPilot-BossEscortDrone-A]
+        [SecondaryAutopilotData:UTD-AutoPilot-BossEscortDrone-B]
+
+        [WeaponSystem:UTD-Weapons-Drone]
+        [TargetData:UTD-Targeting-Boss]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-AutoPilot-BossEscortDrone-A</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [DisableInertiaDampeners:false]
+        [FlyLevelWithGravity:false]
+        [WaypointTolerance:40]
+        [IdealMinSpeed:40]
+        [IdealMaxSpeed:100]
+        [MaxSpeedTolerance:5]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:300]
+
+        [MinimumPlanetAltitude:350]
+        [IdealPlanetAltitude:550]
+
+        [UseProjectileLeadPrediction:true]
+        [AllowStrafing:true]
+        [StrafeMinDurationMs:1000]
+        [StrafeMaxDurationMs:2000]
+
+        [StrafeMinCooldownMs:1000]
+        [StrafeMaxCooldownMs:3000]
+
+        [StrafeMinimumTargetDistance:600]
+        [StrafeSpeedCutOff:80]
+        [StrafeDistanceCutOff:250]
+
+        [EngageDistanceSpace:400]
+        [EngageDistancePlanet:400]
+        [DisengageDistanceSpace:800]
+        [DisengageDistancePlanet:800]
+
+        [RotationMultiplier:2.5]
+
+        [UseVelocityCollisionEvasion:true]
+        [CollisionFallEvasionWaypointDistance:275]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-AutoPilot-BossEscortDrone-B</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [DisableInertiaDampeners:false]
+        [FlyLevelWithGravity:false]
+        [WaypointTolerance:40]
+        [IdealMinSpeed:40]
+        [IdealMaxSpeed:100]
+        [MaxSpeedTolerance:5]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:300]
+
+        [MinimumPlanetAltitude:350]
+        [IdealPlanetAltitude:550]
+
+        [UseProjectileLeadPrediction:true]
+        [AllowStrafing:true]
+        [StrafeMinDurationMs:1000]
+        [StrafeMaxDurationMs:2000]
+
+        [StrafeMinCooldownMs:1000]
+        [StrafeMaxCooldownMs:3000]
+
+        [StrafeMinimumTargetDistance:600]
+        [StrafeSpeedCutOff:80]
+        [StrafeDistanceCutOff:250]
+
+        [EngageDistanceSpace:400]
+        [EngageDistancePlanet:400]
+        [DisengageDistanceSpace:800]
+        [DisengageDistancePlanet:800]
+
+        [RotationMultiplier:2.5]
+
+        [UseVelocityCollisionEvasion:true]
+        [CollisionFallEvasionWaypointDistance:275]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

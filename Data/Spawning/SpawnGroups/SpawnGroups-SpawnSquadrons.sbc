@@ -1,0 +1,640 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+
+ <!-- Spawned via Langley Helicarriers -->
+
+    <SpawnGroup>
+  
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-SquadronSwifts+Raven</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [BehaviorSpawn:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) RQ-9 Raven Tactical Recon VTOL">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader-Spawn</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) CV-11 Shadow Special Operations VTOL">
+          <Position>
+            <X>-60.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort-Spawn</Behaviour>
+        </Prefab> 
+        <Prefab SubtypeId="(NPC-UTD) CV-11 Shadow Special Operations VTOL">
+          <Position>
+            <X>60.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort-Spawn</Behaviour>
+        </Prefab>               
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-SquadronArrowheads</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [BehaviorSpawn:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) FA-38 Warden Multirole Fighter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader-Spawn</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) FA-38 Warden Multirole Fighter">
+          <Position>
+            <X>-60.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort-Spawn</Behaviour>
+        </Prefab>                
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-SquadronPredators</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [BehaviorSpawn:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) F-40 Viper Strike Fighter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader-Spawn</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-40 Viper Strike Fighter">
+          <Position>
+            <X>-60.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort-Spawn</Behaviour>
+        </Prefab> 
+        <Prefab SubtypeId="(NPC-UTD) F-40 Viper Strike Fighter">
+          <Position>
+            <X>60.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort-Spawn</Behaviour>
+        </Prefab>               
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-SquadronPredators+Falcon</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [BehaviorSpawn:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) F-24 Sparrow Interceptor">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader-Spawn</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-40 Viper Strike Fighter">
+          <Position>
+            <X>-60.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort-Spawn</Behaviour>
+        </Prefab> 
+        <Prefab SubtypeId="(NPC-UTD) F-40 Viper Strike Fighter">
+          <Position>
+            <X>60.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort-Spawn</Behaviour>
+        </Prefab>               
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-SquadronFalcons</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [BehaviorSpawn:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) F-24 Sparrow Interceptor">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader-Spawn</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-24 Sparrow Interceptor">
+          <Position>
+            <X>-60.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort-Spawn</Behaviour>
+        </Prefab> 
+        <Prefab SubtypeId="(NPC-UTD) F-24 Sparrow Interceptor">
+          <Position>
+            <X>60.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort-Spawn</Behaviour>
+        </Prefab>               
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-SquadronFalcons+MkII</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [BehaviorSpawn:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) F-27 Raptor Air Superiority Fighter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader-Spawn</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-24 Sparrow Interceptor">
+          <Position>
+            <X>-60.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort-Spawn</Behaviour>
+        </Prefab> 
+        <Prefab SubtypeId="(NPC-UTD) F-24 Sparrow Interceptor">
+          <Position>
+            <X>60.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort-Spawn</Behaviour>
+        </Prefab>               
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-SquadronFalconMkIIS</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [BehaviorSpawn:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) F-27 Raptor Air Superiority Fighter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader-Spawn</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-27 Raptor Air Superiority Fighter">
+          <Position>
+            <X>-60.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort-Spawn</Behaviour>
+        </Prefab> 
+        <Prefab SubtypeId="(NPC-UTD) F-27 Raptor Air Superiority Fighter">
+          <Position>
+            <X>60.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort-Spawn</Behaviour>
+        </Prefab>               
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-SquadronSabers</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [BehaviorSpawn:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) F-35 Specter Fleet Defense Fighter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader-Spawn</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-35 Specter Fleet Defense Fighter">
+          <Position>
+            <X>-60.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort-Spawn</Behaviour>
+        </Prefab>               
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-SquadronV207s</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [BehaviorSpawn:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) F-45 Ranger Long Range Patrol Fighter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader-Spawn</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) F-45 Ranger Long Range Patrol Fighter">
+          <Position>
+            <X>-60.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort-Spawn</Behaviour>
+        </Prefab>               
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-SquadronScythes</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [BehaviorSpawn:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) A-20 Reaper Close Air Support Aircraft">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader-Spawn</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) A-20 Reaper Close Air Support Aircraft">
+          <Position>
+            <X>-60.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort-Spawn</Behaviour>
+        </Prefab>               
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-SquadronWyverns</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [BehaviorSpawn:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) C-17 Titan Strategic Airlift">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader-Spawn</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) C-17 Titan Strategic Airlift">
+          <Position>
+            <X>-60.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort-Spawn</Behaviour>
+        </Prefab>               
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-SquadronWyvernwScorpions</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [BehaviorSpawn:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) MC-17 Titan Special Operations Transport">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader-Spawn</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) MC-17 Titan Special Operations Transport">
+          <Position>
+            <X>-60.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort-Spawn</Behaviour>
+        </Prefab>               
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-SquadronValkyrieMkVs</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [BehaviorSpawn:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) KC-130 Atlas Tanker">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader-Spawn</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) KC-130 Atlas Tanker">
+          <Position>
+            <X>-60.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort-Spawn</Behaviour>
+        </Prefab>               
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>UTD-SpawnGroup-SquadronMakos</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [BehaviorSpawn:true]
+        [ManipulationGroups:UTD-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) B-12 Banshee Tactical Bomber">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightLeader-Spawn</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-UTD) B-12 Banshee Tactical Bomber">
+          <Position>
+            <X>-60.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort-Spawn</Behaviour>
+        </Prefab> 
+        <Prefab SubtypeId="(NPC-UTD) B-12 Banshee Tactical Bomber">
+          <Position>
+            <X>60.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort-Spawn</Behaviour>
+        </Prefab>  
+        <Prefab SubtypeId="(NPC-UTD) B-12 Banshee Tactical Bomber">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>130.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>UTD-Behavior-FlightEscort-Spawn</Behaviour>
+        </Prefab>                      
+      </Prefabs>
+    </SpawnGroup>
+
+  </SpawnGroups>
+</Definitions>

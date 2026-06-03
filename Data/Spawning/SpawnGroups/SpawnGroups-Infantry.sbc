@@ -1,0 +1,138 @@
+<Definitions>
+	<SpawnGroups>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>UTD-SpawnGroup-RavenTroopers</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[CreatureSpawn:true]
+				[AdminSpawnOnly:true]
+				[AiEnabledModBots:true]
+				[FactionOwner:UTD]
+				[BotProfiles:UTD-BotSpawnProfile-CombatBot]
+				[BotProfiles:UTD-BotSpawnProfile-CombatBot]
+				[BotProfiles:UTD-BotSpawnProfile-CombatBot]
+				[BotProfiles:UTD-BotSpawnProfile-CombatEliteBot]							
+				[MinCreatureCount:4]
+				[MaxCreatureCount:4]
+				[MinCreatureDistance:10]
+				[MaxCreatureDistance:18]
+				[IgnoreCombatPhase:true]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				</Prefabs>
+		</SpawnGroup>
+
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>UTD-SpawnGroup-RifleTroopers</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[CreatureSpawn:true]
+				[AdminSpawnOnly:true]
+				[AiEnabledModBots:true]
+				[FactionOwner:UTD]
+				[BotProfiles:UTD-BotSpawnProfile-CombatBot]
+				[BotProfiles:UTD-BotSpawnProfile-CombatBot]
+				[BotProfiles:UTD-BotSpawnProfile-CombatBot]
+				[BotProfiles:UTD-BotSpawnProfile-CombatBot]
+				[BotProfiles:UTD-BotSpawnProfile-CombatBot]
+				[BotProfiles:UTD-BotSpawnProfile-CombatEliteBot]							
+				[MinCreatureCount:6]
+				[MaxCreatureCount:6]
+				[MinCreatureDistance:10]
+				[MaxCreatureDistance:18]
+				[IgnoreCombatPhase:true]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				</Prefabs>
+		</SpawnGroup>
+
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>UTD-SpawnGroup-Troopers</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[CreatureSpawn:true]
+				[AdminSpawnOnly:true]
+				[AiEnabledModBots:true]
+				[FactionOwner:UTD]
+				[BotProfiles:UTD-BotSpawnProfile-CombatBot]
+				[BotProfiles:UTD-BotSpawnProfile-CombatBot]
+				[BotProfiles:UTD-BotSpawnProfile-CombatBot]
+			    [BotProfiles:UTD-BotSpawnProfile-CombatRocketerBot]
+				[BotProfiles:UTD-BotSpawnProfile-CombatRocketerBot]
+				[BotProfiles:UTD-BotSpawnProfile-CombatEliteBot]							
+				[MinCreatureCount:6]
+				[MaxCreatureCount:6]
+				[MinCreatureDistance:10]
+				[MaxCreatureDistance:18]
+				[IgnoreCombatPhase:true]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				</Prefabs>
+		</SpawnGroup>
+
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>UTD-SpawnGroup-EliteTroopers</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[CreatureSpawn:true]
+				[AdminSpawnOnly:true]
+				[AiEnabledModBots:true]
+				[FactionOwner:UTD]
+				[BotProfiles:UTD-BotSpawnProfile-CombatRocketerBot]
+				[BotProfiles:UTD-BotSpawnProfile-CombatRocketerBot]
+				[BotProfiles:UTD-BotSpawnProfile-CombatEliteBot]
+			    [BotProfiles:UTD-BotSpawnProfile-CombatEliteBot]
+				[BotProfiles:UTD-BotSpawnProfile-CombatEliteBot]
+				[BotProfiles:UTD-BotSpawnProfile-CombatEliteBot]							
+				[MinCreatureCount:6]
+				[MaxCreatureCount:6]
+				[MinCreatureDistance:10]
+				[MaxCreatureDistance:18]
+				[IgnoreCombatPhase:true]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				</Prefabs>
+		</SpawnGroup>
+
+	</SpawnGroups>
+</Definitions>

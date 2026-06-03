@@ -1,0 +1,88 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Trigger-PassiveSwitchFlightLeader-Spawn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:TargetFar]
+        [AllowTargetFarWithoutTarget:true]
+
+        [TargetDistance:12000]
+
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:UTD-Action-PassiveSwitchFlightLeader-Spawn]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Action-PassiveSwitchFlightLeader-Spawn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:UTD-Chat-PassiveSwitchFlightLeader-Spawn]
+
+        [ChangeBehaviorSubclass:true]
+        [NewBehaviorSubclass:Patrol]
+
+        [ChangeAutopilotProfile:true]
+        [AutopilotProfile:Primary]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:UTD-Trigger-PassiveSwitchFlightLeader-Spawn]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:UTD-Trigger-FlightLeader-AggressionSwitch]
+        [EnableTriggerNames:UTD-Trigger-FlightLeader-CargoShipAssistDirect-Spawn]
+        [EnableTriggerNames:UTD-Trigger-FlightLeader-GA-AssistDirect-Spawn]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>UTD-Chat-PassiveSwitchFlightLeader-Spawn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:12001]
+        [Author:UTD {AntennaName} Flight Leader]
+        [Color:Red]
+
+        [ChatMessages:Target lost returing to patrol.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages:Disengaging from combat, target is gone.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>
