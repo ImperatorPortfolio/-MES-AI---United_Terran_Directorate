@@ -9029,6 +9029,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RemoteControl">
               <SubtypeName>LargeBlockRemoteControl</SubtypeName>
+              <CustomName>SCENARIUM_OBJECTIVE_CONTROL</CustomName>
               <EntityId>126511413477367830</EntityId>
               <Min x="9" y="0" z="4" />
               <BlockOrientation Forward="Left" Up="Backward" />

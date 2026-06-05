@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SpawnGroups>
-
     <SpawnGroup>
       <Id>
         <TypeId>SpawnGroupDefinition</TypeId>
@@ -11,10 +10,10 @@
       <Description>
         [Modular Encounters SpawnGroup]
         [SpawnGroupEnabled:true]
-        [AdminSpawnOnly:true]
-        [RivalAiSpawn:true]
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationSmall]
         [FactionOverride:UTD]
         [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
         [ManipulationGroups:Parallax-Manipulation-Group]
         [ScenariumSpawnGroup:UTD_MilitaryOutpost]
         [ScenariumNodeId:UTD_EARTH_OUTPOST_01]
@@ -43,10 +42,10 @@
       <Description>
         [Modular Encounters SpawnGroup]
         [SpawnGroupEnabled:true]
-        [AdminSpawnOnly:true]
-        [RivalAiSpawn:true]
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationMedium]
         [FactionOverride:UTD]
         [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
         [ManipulationGroups:Parallax-Manipulation-Group]
         [ScenariumSpawnGroup:UTD_RegionalBase]
         [ScenariumNodeId:UTD_EARTH_REGIONAL_BASE_01]
@@ -75,10 +74,10 @@
       <Description>
         [Modular Encounters SpawnGroup]
         [SpawnGroupEnabled:true]
-        [AdminSpawnOnly:true]
-        [RivalAiSpawn:true]
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationMedium]
         [FactionOverride:UTD]
         [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
         [ManipulationGroups:Parallax-Manipulation-Group]
         [ScenariumSpawnGroup:UTD_Headquarters]
         [ScenariumNodeId:UTD_EARTH_HQ_01]
@@ -97,6 +96,5 @@
         </Prefab>
       </Prefabs>
     </SpawnGroup>
-
   </SpawnGroups>
 </Definitions>
