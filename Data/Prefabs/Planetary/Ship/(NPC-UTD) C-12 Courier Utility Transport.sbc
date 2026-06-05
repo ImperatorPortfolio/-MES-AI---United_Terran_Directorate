@@ -161,7 +161,12 @@
               <IsMainRemoteControl>false</IsMainRemoteControl>
               <WaitForFreeWay>false</WaitForFreeWay>
               <IsUpdatedSave>true</IsUpdatedSave>
-            </MyObjectBuilder_CubeBlock>
+                          <CustomName>Scenarium UTD Earth Outpost Control</CustomName>
+              <CustomData>ScenariumNodeId=UTD_EARTH_OUTPOST_01
+ScenariumFaction=UTD
+ScenariumNodeType=MilitaryOutpost
+ScenariumCaptureMode=Destroy</CustomData>
+</MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Projector">
               <SubtypeName>SmallProjector</SubtypeName>
               <EntityId>143316377256663175</EntityId>

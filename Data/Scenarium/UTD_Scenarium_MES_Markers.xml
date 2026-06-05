@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UTDScenariumMarkers>
+  <Description>
+    Data-only marker reference for UTD MES/NPC pack. Use these values in UTD MES spawn groups and objective prefabs.
+  </Description>
+  <Markers>
+    <Marker>
+      <NodeId>UTD_EARTH_OUTPOST_01</NodeId>
+      <Faction>UTD</Faction>
+      <NodeType>MilitaryOutpost</NodeType>
+      <SpawnGroup>UTD_MilitaryOutpost</SpawnGroup>
+      <CustomData>ScenariumNodeId=UTD_EARTH_OUTPOST_01
+ScenariumFaction=UTD
+ScenariumNodeType=MilitaryOutpost</CustomData>
+    </Marker>
+    <Marker>
+      <NodeId>UTD_EARTH_REGIONAL_BASE_01</NodeId>
+      <Faction>UTD</Faction>
+      <NodeType>RegionalBase</NodeType>
+      <SpawnGroup>UTD_RegionalBase</SpawnGroup>
+      <CustomData>ScenariumNodeId=UTD_EARTH_REGIONAL_BASE_01
+ScenariumFaction=UTD
+ScenariumNodeType=RegionalBase</CustomData>
+    </Marker>
+    <Marker>
+      <NodeId>UTD_EARTH_HQ_01</NodeId>
+      <Faction>UTD</Faction>
+      <NodeType>Headquarters</NodeType>
+      <SpawnGroup>UTD_Headquarters</SpawnGroup>
+      <CustomData>ScenariumNodeId=UTD_EARTH_HQ_01
+ScenariumFaction=UTD
+ScenariumNodeType=Headquarters</CustomData>
+    </Marker>
+  </Markers>
+</UTDScenariumMarkers>
