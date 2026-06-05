@@ -1,25 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Definitions>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SpawnGroups>
     <SpawnGroup>
-      <Id>
-        <TypeId>SpawnGroupDefinition</TypeId>
-        <SubtypeId>UTD_MilitaryOutpost</SubtypeId>
-      </Id>
-      <DisplayName>UTD Military Outpost</DisplayName>
+      <Id><TypeId>SpawnGroupDefinition</TypeId><SubtypeId>UTD_MilitaryOutpost</SubtypeId></Id>
       <Description>
         [Modular Encounters SpawnGroup]
-        [AdminSpawnOnly:false]
-        [FactionOwner:UTD]
-        [UniqueEncounter:true]
+        [SpawnGroupEnabled:true]
+        [RivalAiSpawn:true]
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationSmall]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationProfiles:MES-Manipulation-RivalAi]
         [ScenariumSpawnGroup:UTD_MilitaryOutpost]
         [ScenariumNodeId:UTD_EARTH_OUTPOST_01]
       </Description>
-      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
-      <Frequency>1.0</Frequency>
       <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
       <Prefabs>
-        <Prefab SubtypeId="UTD_MilitaryOutpost_Base" Position="0,0,0" Speed="0,0,0" BeaconText="UTD_MilitaryOutpost" />
+        <Prefab SubtypeId="(NPC-UTD) Military Outpost">
+          <Position><X>0.0</X><Y>11</Y><Z>0.0</Z></Position>
+          <Speed>0</Speed>
+          <Behaviour>Parallax-Behavior-BasicInstallation</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id><TypeId>SpawnGroupDefinition</TypeId><SubtypeId>UTD_RegionalBase</SubtypeId></Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpawnGroupEnabled:true]
+        [RivalAiSpawn:true]
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationMedium]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:Parallax-Manipulation-Group]
+        [ScenariumSpawnGroup:UTD_RegionalBase]
+        [ScenariumNodeId:UTD_EARTH_REGIONAL_BASE_01]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>4.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) Regional Base">
+          <Position><X>0.0</X><Y>9</Y><Z>0.0</Z></Position>
+          <Speed>0</Speed>
+          <Behaviour>Parallax-Behavior-Installation</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id><TypeId>SpawnGroupDefinition</TypeId><SubtypeId>UTD_Headquarters</SubtypeId></Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpawnGroupEnabled:true]
+        [RivalAiSpawn:true]
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationSmall]
+        [FactionOverride:UTD]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:Parallax-Manipulation-Group]
+        [ScenariumSpawnGroup:UTD_Headquarters]
+        [ScenariumNodeId:UTD_EARTH_HQ_01]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>4.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-UTD) Headquarters">
+          <Position><X>0.0</X><Y>10</Y><Z>0.0</Z></Position>
+          <Speed>0</Speed>
+          <Behaviour>Parallax-Behavior-Installation</Behaviour>
+        </Prefab>
       </Prefabs>
     </SpawnGroup>
   </SpawnGroups>
