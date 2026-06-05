@@ -1,30 +1,25 @@
-<?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions>
   <SpawnGroups>
     <SpawnGroup>
       <Id>
         <TypeId>SpawnGroupDefinition</TypeId>
         <SubtypeId>UTD_MilitaryOutpost</SubtypeId>
       </Id>
+      <DisplayName>UTD Military Outpost</DisplayName>
       <Description>
         [Modular Encounters SpawnGroup]
-        [SpawnConditionGroups:MES-SpawnConditionsGroup-AtmoCargoShip]
-        [PlanetBlacklist:Pertam]
-        [FactionOverride:UTD]
-        [ReplenishSystems:true]
-        [UseFirstConditionsAsPersistent:true]
-        [ManipulationGroups:UTD-Manipulation-Group]
+        [AdminSpawnOnly:false]
+        [FactionOwner:UTD]
+        [UniqueEncounter:true]
+        [ScenariumSpawnGroup:UTD_MilitaryOutpost]
         [ScenariumNodeId:UTD_EARTH_OUTPOST_01]
-        [ScenariumBindingMode:SpawnGroupIdentity]
       </Description>
-      <IsPirate>true</IsPirate>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
       <Frequency>1.0</Frequency>
+      <IsPirate>true</IsPirate>
       <Prefabs>
-        <Prefab SubtypeId="(NPC-UTD) C-12 Courier Utility Transport">
-          <Position><X>0.0</X><Y>0.0</Y><Z>0.0</Z></Position>
-          <Speed>18</Speed>
-          <Behaviour>UTD-Behavior-CargoShip</Behaviour>
-        </Prefab>
+        <Prefab SubtypeId="UTD_MilitaryOutpost_Base" Position="0,0,0" Speed="0,0,0" BeaconText="UTD_MilitaryOutpost" />
       </Prefabs>
     </SpawnGroup>
   </SpawnGroups>
